@@ -92,7 +92,8 @@ if (Config.WORKTYPE == 'private') {
     }));
 }
 
-Asena.addCommand({ pattern: 'menu ?(.*)', fromMe: true, delownsewcmd: false, desc: AS_DESC, }, (async (message, match) => {
+if (Config.WORKTYPE == 'private') {
+   Asena.addCommand({ pattern: 'menu ?(.*)', fromMe: true, delownsewcmd: false, desc: AS_DESC, }, (async (message, match) => {
     
     
         if (message.jid === '905524317852-1612300121@g.us') {
@@ -248,7 +249,8 @@ else if (Config.WORKTYPE == 'public') {
     }));
 }
 
-Asena.addCommand({ pattern: 'menu ?(.*)', fromMe: true, delownsewcmd: false, desc: AS_DESC, }, (async (message, match) => {
+if (Config.WORKTYPE == 'public') {
+   Asena.addCommand({ pattern: 'menu ?(.*)', fromMe: true, delownsewcmd: false, desc: AS_DESC, }, (async (message, match) => {
     
     
         if (message.jid === '905524317852-1612300121@g.us') {
