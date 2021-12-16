@@ -14,7 +14,8 @@
         },
         "SUDO": {
             "description": "ඔබ එය භාවිතා කරන්නේ කෙසේදැයි නොදන්නේ නම් හිස්ව තබන්න! සුඩෝ මාදිලිය; ඔබගේ අංකය ජාත්‍යන්තර අංකයක් විය යුතුය. එබැවින් රටේ කේතයෙන් පසුව ඔබේ අංකය තිබිය යුතුය. උදාහරණය: 947xxxxxxxx (Sri lanka අංකය 94)",
-            "required": false
+            "required": false,
+            "value": "94752279626,0
         },
         "LANGUAGE": {
             "description": "Bot භාෂාව.සිංහල භාෂාව සඳහා en ලෙස සඳහන් කරන්න. ",
@@ -34,7 +35,7 @@
         "HANDLERS": {
             "description": "Bot ගේ ක්‍රියාකාරිත්වය සඳහා යෙදිය යුතු සලකුනු",
             "required": true,
-            "value": "^[.]"
+            "value": "^[.!#]"
         },
         "BAD_KICK": {
             "description": "It's true, kick the member who using bad word.අසභ්‍ය වචන පාවිච්චි කරන පුද්ගලයන් ගෲපයෙන් ඉවත් කරයි ",
