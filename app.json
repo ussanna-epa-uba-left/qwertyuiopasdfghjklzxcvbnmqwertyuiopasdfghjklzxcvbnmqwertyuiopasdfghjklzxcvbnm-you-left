@@ -17,11 +17,11 @@
             "required": false
         },
         "LANGUAGE": {
-            "description": "Bot භාෂාව.සිංහල භාෂාව සඳහා En ලෙස සඳහන් කරන්න. ",
+            "description": "Bot භාෂාව.සිංහල භාෂාව සඳහා en ලෙස සඳහන් කරන්න. ",
             "required": true,
             "value": "en"
         },
-        "ANTİ_LİNK": {
+        "ANTI_LINK": {
             "description": "Link Blocking System.ගෲපයට කෙනෙකු ලින්ක් එකක් ඇතුලත් කලහොත් ඔහුව ගෲපයෙන් නෙරපා දමයි",
             "required": true,
             "value": "true"
@@ -107,6 +107,11 @@
             "description": "Bot online ද නැද්ද යන්න පරීක්ෂා කරන විට ලැබෙන මැසේජ් එක. මෙය වෙනස් කිරිමට අත්‍යාවශ්‍යම නොවේ.",
             "required": false,
             "value": "default"
+        },
+        "ALIVE_LOGO": {
+            "description": "Bot online ද නැද්ද යන්න පරීක්ෂා කරන විට ලැබෙන photo එක. මෙය වෙනස් කිරිමට අත්‍යාවශ්‍යම නොවේ.",
+            "required": false,
+            "value": "https://telegra.ph/file/24cacd9938446a38180fd.png"            
         },
         "BAN_MESSAGE": {
             "description": "යම් කෙනෙකු ඔබ .ban ලෙස කොමාන්ඩ් කර remove කලවිට ලැබෙන message එක. ඔබට මෙම පණිවිඩය වෙනස් කිරීමට අවශ්‍ය නැතිනම් default ටයිප් කරන්න.",
