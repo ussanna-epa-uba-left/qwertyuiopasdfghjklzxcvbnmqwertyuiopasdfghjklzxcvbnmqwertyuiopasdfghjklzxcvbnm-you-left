@@ -32,6 +32,11 @@
             "required": true,
             "value": "false"
         },
+        "CUS_PANEL": {
+            "description": "Enter 2nd Panel CMD",
+            "required": true,
+            "value": "cyber"
+        },
         "HANDLERS": {
             "description": "Bot ගේ ක්‍රියාකාරිත්වය සඳහා යෙදිය යුතු සලකුනු",
             "required": true,
