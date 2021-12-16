@@ -2,7 +2,7 @@
 cobra bot project
 2021
 */
-const cobra = require('../events');
+const Asena = require('../events');
 const Config = require('../config');
 const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
 const axios = require('axios');
@@ -11,7 +11,7 @@ const Language = require('../language');
 const Lang = Language.getString('wallpaper');
 
 if (Config.WORKTYPE == 'private') {
-cobra.addCommand({pattern: 'textpro', fromMe: true, desc: Lang.TET_DESC}, (async (message, match) => {
+Asena.addCommand({pattern: 'textpro', fromMe: true, desc: Lang.TET_DESC}, (async (message, match) => {
     const msg ='   ┏━━━━━°❀❀°━━━━━┓\n   ᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ LOGO PACK\n   ┗━━━━━°❀❀°━━━━━┛' + '\n\n' +
             '│🍁 ᴄᴏᴍᴍᴀɴᴅ↛.' + 'gstyle' + '\n' +
             '│🍃 ᴜꜱᴇ↛[' + '.gstyle CyberQueen' + ']\n\n' +
@@ -58,7 +58,7 @@ cobra.addCommand({pattern: 'textpro', fromMe: true, desc: Lang.TET_DESC}, (async
  }));
 }
 if (Config.WORKTYPE == 'public') {
-cobra.addCommand({pattern: 'textpro', fromMe: true, desc: Lang.TET_DESC, dontAddCommandList: true}, (async (message, match) => {
+Asena.addCommand({pattern: 'textpro', fromMe: true, desc: Lang.TET_DESC, dontAddCommandList: true}, (async (message, match) => {
      const msg ='   ┏━━━━━°❀❀°━━━━━┓\n   ᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ LOGO PACK\n   ┗━━━━━°❀❀°━━━━━┛' + '\n\n' +
             '│🍁 ᴄᴏᴍᴍᴀɴᴅ↛.' + 'gstyle' + '\n' +
             '│🍃 ᴜꜱᴇ↛[' + '.gstyle CyberQueen' + ']\n\n' +
@@ -105,7 +105,7 @@ cobra.addCommand({pattern: 'textpro', fromMe: true, desc: Lang.TET_DESC, dontAdd
  }));
 }
 if (Config.WORKTYPE == 'public') {
-cobra.addCommand({pattern: 'textpro', fromMe: false, desc: Lang.TET_DESC, dontAddCommandList: true}, (async (message, match) => {
+Asena.addCommand({pattern: 'textpro', fromMe: false, desc: Lang.TET_DESC, dontAddCommandList: true}, (async (message, match) => {
      const msg ='   ┏━━━━━°❀❀°━━━━━┓\n   ᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ LOGO PACK\n   ┗━━━━━°❀❀°━━━━━┛' + '\n\n' +
             '│🍁 ᴄᴏᴍᴍᴀɴᴅ↛.' + 'gstyle' + '\n' +
             '│🍃 ᴜꜱᴇ↛[' + '.gstyle CyberQueen' + ']\n\n' +
