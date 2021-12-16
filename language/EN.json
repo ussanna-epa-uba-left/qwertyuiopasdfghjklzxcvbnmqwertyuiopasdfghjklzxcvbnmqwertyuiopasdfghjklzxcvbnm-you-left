@@ -87,7 +87,7 @@
             "INVALID": "```Invalid key:value format```",
             "GETVAR_DESC": "Get heroku config var",
             "DELVAR_DESC": "Delete heroku config var",
-            "DEL_SUCCESS": "```{} සාර්ථකව මකා දමා ඇත
+            "DEL_SUCCESS": "```{}``` සාර්ථකව මකා දමා ඇත",
             "NOT_FOUND": "```මෙවැනි යතුරක් සොයා ගත නොහැකි විය```"           
         },
         "filters": {
