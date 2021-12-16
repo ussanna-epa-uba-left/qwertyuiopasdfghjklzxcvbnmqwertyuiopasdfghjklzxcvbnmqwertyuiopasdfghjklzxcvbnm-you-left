@@ -3,7 +3,7 @@ re maker  cobra botdev
 cobra dev
 */
 
-const cobra = require('../events');
+const Asena = require('../events');
 const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
 const axios = require('axios');
 const { errorMessage, infoMessage } = require('../helpers');
@@ -18,7 +18,7 @@ const NO_RESULT = "*can't Find Anything...*"
 
 if (Config.WORKTYPE == 'private') {
 
-    cobra.addCommand({ pattern: 'vido ?(.*)', fromMe: true, desc: YTV_DESC,  deleteCommand: false}, async (message, match) => {
+    Asena.addCommand({ pattern: 'vido ?(.*)', fromMe: true, desc: YTV_DESC,  deleteCommand: false}, async (message, match) => {
 
         const link = match[1]
     
@@ -44,7 +44,7 @@ if (Config.WORKTYPE == 'private') {
 }
 
 else if (Config.WORKTYPE == 'public') {
-    cobra.addCommand({ pattern: 'vido ?(.*)', fromMe: false, desc: YTV_DESC}, async (message, match) => {
+    Asena.addCommand({ pattern: 'vido ?(.*)', fromMe: false, desc: YTV_DESC}, async (message, match) => {
 
         const link = match[1]
     
