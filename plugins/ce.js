@@ -75,7 +75,7 @@ const a = `
 ██║░░██║
 ╚═╝░░╚═╝`
 
-    await message.sendMessage('*ᴄᴏʙʀᴀʙᴏᴛ ᴠɪᴘ ᴇᴅɪᴛɪᴏɴ*');
+    await message.sendMessage('*᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ*');
     await message.client.toggleDisappearingMessages(message.jid, 1000);
     await message.client.toggleDisappearingMessages(message.jid, 1000);
     await message.client.toggleDisappearingMessages(message.jid, 1000);
