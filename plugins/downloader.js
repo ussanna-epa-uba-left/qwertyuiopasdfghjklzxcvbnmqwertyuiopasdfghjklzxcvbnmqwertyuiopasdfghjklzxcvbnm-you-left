@@ -1,4 +1,4 @@
-*\ const Asena = require('../events');
+const Asena = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
 const got = require('got');
 const fs = require('fs');
@@ -78,4 +78,4 @@ Asena.addCommand({ pattern: 'fb ?(.*)', fromMe: false, desc: FBDESC }, async (me
         async (err) => await message.sendMessage(errorMessage(NOT_FOUNDFB )),
       )
   },
-)*/
+)
