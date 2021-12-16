@@ -1,7 +1,7 @@
 {
   "name": "Cyber Queen",
   "version": "1.0",
-  "description": "᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ - Whatsapp userbot. ",
+  "description": "CyberQueen - Whatsapp userbot. ",
   "main": "./CyberQueen/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
