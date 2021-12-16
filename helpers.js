@@ -1,19 +1,18 @@
-/* Copyright (C) 2020 BlackKingdoms.
+/* Copyright (C) 2021.
 
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
 
-Maraya - BlackKingdoms
 */
 
 function successfullMessage(msg) {
-    return "✅ *BlackKingdoms*:  ```" + msg + "```"
+    return "✅ *᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ*:  ```" + msg + "```"
 }
 function errorMessage(msg) {
-    return "🛑 *BlackKingdoms*:  ```" + msg + "```"
+    return "🛑 *᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐs*:  ```" + msg + "```"
 }
 function infoMessage(msg) {
-    return "⏺️ *BlackKingdoms*:  ```" + msg + "```"
+    return "⏺️ *᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ*:  ```" + msg + "```"
 }
 
 
