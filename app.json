@@ -1,14 +1,14 @@
 {
-    "name": "👹👹 BLACKKINGDOM WHATSAPP BOT👹👹 Bot",
-    "description": "BlackKingdoms is a chat bot for WhatsApp.",
+    "name": "᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ Bot",
+    "description": "᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ is a chat bot for WhatsApp.",
     "logo": "https://telegra.ph/file/24cacd9938446a38180fd.png",
-    "keywords": ["whatsapp", "userbot", "Asena", "WhatsAsena", "bot", "api", "ai", "Maraya"],
-    "repository": "https://github.com/BlackKingdoms/BlackKingdom",
+    "keywords": ["whatsapp", "userbot", "Asena", "queen", "bot", "api", "ai", "cyber"],
+    "repository": "https://github.com/waqqw/CyberQueen",
     "website":   "https://chat.whatsapp.com/E76o3j6g2NpFZ",
     "success_url": "https://chat.whatsapp.com/Hm79J2saLrvRTkq",
     "stack": "container",
     "env": {
-        "BLACKKINGDOM_SESSION": {
+        "CYBER_SESSION": {
             "description": "Qr කේතය scan කළ පසුව ලැබෙන කේතයන්",
             "required": true
         },
