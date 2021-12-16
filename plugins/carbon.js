@@ -1,7 +1,7 @@
 /* Codded by @phaticusthiccy
 Telegram: t.me/phaticusthiccy
 Instagram: www.instagram.com/kyrie.baran
-
+*/
 
 const Asena = require('../events');
 const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
@@ -46,4 +46,4 @@ else if (Config.WORKTYPE == 'public') {
         await message.client.sendMessage(message.jid,Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: 'Copyright © 2021 | ᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ'})
 
     }));
-}*/
+}
