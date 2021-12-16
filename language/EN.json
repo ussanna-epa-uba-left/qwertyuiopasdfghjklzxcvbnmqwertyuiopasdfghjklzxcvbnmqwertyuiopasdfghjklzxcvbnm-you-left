@@ -393,7 +393,7 @@
             "SAVE_USAGE": "පණිවිඩයකට mention දී ටයිප් කරන්න .save හෝ භාවිතා කරන්න .save <ඔබේ සටහන>",
             "REPLY": "කරුණාකර සටහනක් හෝ පණිවිඩයකට mention දෙන්න.",
             "SUCCESSFULLY_ADDED": "Successfully added new note, check your notes with .notes.",
-            "UNSUCCESSFUL": "Could not add note, please try again later or contact WhatsAsena developers.",
+            "UNSUCCESSFUL": "Could not add note, please try again later or contact Cyber Queen developers.",
             "DELETE_USAGE": "ඔබගේ සුරකින ලද සටහන් *සියල්ල* මකා දමයි.",
             "SUCCESSFULLY_DELETED": "Successfully deleted all your notes."
         },
@@ -413,7 +413,7 @@
             "NOT_FOUND":"User not found: "
         },
         "github": {
-            "GİTHUB_DESC": "දී ඇති පරිශීලක නාමයෙන් github තොරතුරු රැස් කරයි.\n⌨️ Example: .github yasasdileepa",
+            "GİTHUB_DESC": "දී ඇති පරිශීලක නාමයෙන් github තොරතුරු රැස් කරයි.\n⌨️ Example: .github SLTechnicalTips",
             "REPLY": "```You Need To Type Any Username!```",
             "NOT": "```User not found!```",
             "FOLLOWERS": "Followers:",
