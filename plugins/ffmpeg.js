@@ -60,7 +60,7 @@ if (Config.WORKTYPE == 'private') {
                 .videoFilters(`${match[1]}`)
                 .save('output.jpg')
                 .on('end', async () => {
-                    await message.sendMessage(fs.readFileSync('output.jpg'), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | ᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ'});
+                    await message.sendMessage(fs.readFileSync('output.jpg'), MessageType.image, {mimetype: Mimetype.jpg});
                 });
             return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
         }
