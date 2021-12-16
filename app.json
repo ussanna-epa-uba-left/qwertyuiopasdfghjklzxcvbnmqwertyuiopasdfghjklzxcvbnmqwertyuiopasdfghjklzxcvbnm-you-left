@@ -39,17 +39,17 @@
         "BAD_KICK": {
             "description": "It's true, kick the member who using bad word.අසභ්‍ය වචන පාවිච්චි කරන පුද්ගලයන් ගෲපයෙන් ඉවත් කරයි ",
             "required": true,
-            "value": "true"
+            "value": "false"
         },
         "SPAM_KICK": {
             "description": "It's true, kick the member who using spam.ස්පෑම් දමන පුද්ගලයන් ගෲපයෙන් ඉවත් කරයි ",
             "required": true,
-            "value": "true"
+            "value": "false"
         },
         "SEND_READ": {
             "description": "Bot message seen කළාද නැතිද යන්න පරිශීලකට පෙන්විය යුතුද?",
             "required": true,
-            "value": "false"
+            "value": "true"
         },
         "HEROKU": {
             "description": "Heroku",
@@ -111,10 +111,10 @@
         "ALIVE_LOGO": {
             "description": "Bot online ද නැද්ද යන්න පරීක්ෂා කරන විට ලැබෙන photo එක. මෙය වෙනස් කිරිමට අත්‍යාවශ්‍යම නොවේ.",
             "required": false,
-            "value": "https://telegra.ph/file/24cacd9938446a38180fd.png"            
+            "value": "https://i.ibb.co/J3FK9zw/image.png"            
         },
         "BAN_MESSAGE": {
-            "description": "යම් කෙනෙකු ඔබ .ban ලෙස කොමාන්ඩ් කර remove කලවිට ලැබෙන message එක. ඔබට මෙම පණිවිඩය වෙනස් කිරීමට අවශ්‍ය නැතිනම් default ටයිප් කරන්න.",
+            "description": "යම් කෙනෙකු ඔබ .kick ලෙස කොමාන්ඩ් කර remove කලවිට ලැබෙන message එක. ඔබට මෙම පණිවිඩය වෙනස් කිරීමට අවශ්‍ය නැතිනම් default ටයිප් කරන්න.",
             "required": false,
             "value": "default"
         },
