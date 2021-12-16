@@ -1,24 +1,82 @@
 
-## Hi there <img src="https://github.com/souvikguria98/souvikguria98/blob/master/Hi.gif" width="25">  I am Black Kingdom ☠🔱Enjoy My Profile 🔱☠
+## Hi there <img src="https://github.com/souvikguria98/souvikguria98/blob/master/Hi.gif" width="25">  I am ᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ
 
-[![English](https://img.shields.io/badge/Select-Sinhala-red.svg)](https://github.com/BlackKingdoms/BlackKingdom/blob/main/README.md)
-  [![Sinhala](https://img.shields.io/badge/Select-English-green.svg)](https://github.com/Blackkingdoms/Blackkingdom/blob/main/README-SI.md)
-![My card name](https://cardivo.vercel.app/api?name=ʙʟᴀᴄᴋ%20ᴋɪɴɢᴅᴏᴍ%20ᴡʜᴀᴛꜱᴀᴘᴘ%20ᴜꜱᴇʀ%20ʙᴏᴛ%20🔱👾&description=𝐇𝐈,%20𝐈%27𝐌%20a%20%20𝐁𝐋𝐀𝐂𝐊%20𝐊𝐈𝐍𝐆𝐃𝐎𝐌_%20𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏_%20𝐔𝐒𝐄𝐑_%27𝐁𝐎𝐓_%20You%20𝐂𝐀𝐍%20𝐈𝐍𝐒𝐓𝐀𝐋𝐋_%20𝐁𝐋𝐀𝐂𝐊_%20𝐊𝐈𝐍𝐆𝐃𝐎𝐌_%20𝐁𝐎𝐓_%20(𝐌𝐘%20𝐎𝐖𝐍𝐄𝐑%20𝐈𝐒%20🔱𝐀𝐃𝐄𝐄𝐒𝐇𝐀🔱)%20%F0%9F%91%8B&image=https://telegra.ph/file/185c241c27145c2520a94.jpg?v=4&backgroundColor=%#000000&github=BlackerMoskie&pattern=leaf&colorPattern=%23eaeaea)
-[![Youtube](https://img.shields.io/badge/SL_Adesha%20@_Dilipa_Creations%20YouTube%20Channel-ff0000?style=flat&labelColor=224242&logoColor=white&for-the-badge&logo=youtube)](https://youtube.com/channel/UCYpzhRBGT4x3avaE3DR5_jA)
-[![WhatsApp](https://img.shields.io/badge/BLACK%20KINGDOM%20WORLD%20SUPPORT%20GROUP%20(1)-003245?style=flat&labelColor=224242&logoColor=white&for-the-badge&logo=whatsapp)](https://chat.whatsapp.com/EnXz21ZJuh5ADJIuK7bIls)
+[![English](https://img.shields.io/badge/Select-Sinhala-red.svg)](https://github.com/waqqw/CyberQueen/blob/main/README.md)
+  [![Sinhala](https://img.shields.io/badge/Select-English-green.svg)](https://github.com/waqqw/CyberQueen/blob/main/README-SI.md)
 
-#### Simple Method
 
-#### You can Get Qr From Repl.it..Toutch button down bellow
-[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@BlackKingdoms/BLACKKINGDOM-QR)
+
+<div align="center">
+  <img border-radius: 15px src="https://i.ibb.co/6tyMhVf/IMG-20211213-WA0007.jpg" width="350" height="350"/>
+  <p align="center">
+<a href="#"><img title="Cyber Queen" src="https://img.shields.io/badge/CyberQueen-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+</p>
+  <p align="center">
+<a href="https://github.com/SLTechnicalTips"><img title="Author" src="https://img.shields.io/badge/Author-SLTechnicalTips/?color=blue&style=for-the-badge&logo=whatsapp"></a>
+</p>
+</div>
+
+
+
+
+<p align="center">
+    Makes it easy and fun to use WhatsApp. It is also the first Sinhala user bot for WhatsApp.
+    <br>
+        <a href="https://chat.whatsapp.com/GqFSnrBWDFj8yCDuCMt2YT">Whatsapp Group</a> |
+        <a href="https://www.youtube.com/SLTechnicalTips">Youtube Channel</a>
+    <br>
+</p>
+
+## Setup
+<div align="center">
+
+  ### Simple Method
+  
+ [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@NICONico6/CyberQueen-QR)
+  
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/waqqw/CyberQueen-BOT) 
+  
+
+ 
+
+  <p align="center">
+  <a href="https://github.com/waqqw/CyberQueen-BOT">
+    
+
+    
+ ## Developer
+  <div align="center">
+    
+  [![NICO](https://github.com/sltechnicaltips.png?size=100)](https://github.com/SLTechnicalTips)
+
+[Nico @SL Technical Tips](https://github.com/sltechnicaltips)  
+SL Technical Tips YouTube Channel owner 
+  </div>
+    
+
+## 📢 Guide
+Click WA logo to Join Support Group 👇
+    <br>
+<br>
+  [![join](https://github.com/Alien-alfa/PublicBot/blob/main/wlogo.svg.png)](https://chat.whatsapp.com/GqFSnrBWDFj8yCDuCMt2YT)
+  <div align="center">
+       
+
+    
+### ⚠️ Warning! 
 ```
-You need 2 mobile phones to build BlackKingdom bot!
-You will run the bot from the second device.
-You will only generate a QR code with the first device.
-You need to install BlackKingdom Bot from the first device.
+Due to Userbot; Your WhatsApp account may be banned.
+This is an open source project, you are responsible for everything you do. 
+Absolutely, CyberQueen executives do not accept responsibility.
+By establishing the CyberQueen, you are deemed to have accepted these responsibilities.
 ```
-#### Once you have the QR code, click on the button below to deploy Bot
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/BlackKingdoms/BlackKingdom)
 
 
-<div align="center"><img src="https://profile-counter.glitch.me/BlackKingdoms/count.svg" /><br>Profile Viewers</div>
+
+## License
+This project is protected by `GNU General Public Licence v3.0` license.
+
+### Disclaimer
+`WhatsApp` name, its variations and the logo are registered trademarks of Facebook. We have nothing to do with the registered trademark
+
+<div align="center"><img src="https://profile-counter.glitch.me/SLTechnicalTips/count.svg" /><br>Profile Viewers</div>
