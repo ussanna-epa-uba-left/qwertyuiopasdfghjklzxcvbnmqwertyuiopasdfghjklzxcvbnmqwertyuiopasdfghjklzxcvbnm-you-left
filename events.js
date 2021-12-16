@@ -1,9 +1,8 @@
-/* Copyright (C) 2020 BlackKingdoms.
+/* Copyright (C) 2021.
 
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
 
-BlackKingdom - BlackKingdoms
 */
 
 // Komutları burada tutacağız.
@@ -48,4 +47,4 @@ function addCommand(info, func) {
 module.exports = {
     addCommand: addCommand,
     commands: Commands
-}
+}*\
