@@ -53,6 +53,7 @@
 SL Technical Tips YouTube Channel owner 
   </div>
     
+<div align="center"><img src="https://profile-counter.glitch.me/SLTechnicalTips/count.svg" /><br>Profile Viewers</div>
 
 ## 📢 Guide
 Click WA logo to Join Support Group 👇
@@ -79,4 +80,4 @@ This project is protected by `GNU General Public Licence v3.0` license.
 ### Disclaimer
 `WhatsApp` name, its variations and the logo are registered trademarks of Facebook. We have nothing to do with the registered trademark
 
-<div align="center"><img src="https://profile-counter.glitch.me/SLTechnicalTips/count.svg" /><br>Profile Viewers</div>
+
