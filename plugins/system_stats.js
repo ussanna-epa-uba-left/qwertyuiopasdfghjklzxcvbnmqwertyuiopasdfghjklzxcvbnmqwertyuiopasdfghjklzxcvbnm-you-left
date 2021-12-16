@@ -27,7 +27,7 @@ if (Config.WORKTYPE == 'private') {
             
             var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
        
-        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "```᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ!```\n\nᎠҽѵҽӀօքҽɾ : ♦️⇝͜͡✪ஓீ͜ɴͥɪᴄᷧᴏᷟ࿐♠\n\n*ᴠᴇʀꜱɪᴏɴ:* ```Version 1.0```*\n\n*ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ: https://www.youtube.com/SLTechnicalTips\n\n*ᴘᴜʙʟɪᴄ ᴄᴏᴍᴍᴀɴᴅꜱ ɢʀᴏᴜᴘ:* ```https://chat.whatsapp.com/BzQiMPrabddJ4RfulG5888```\n*ᴇʜɪ ɢʀᴏᴜᴘ:* https://chat.whatsapp.com/EaTyMitf8I91O21yZlj1Jf\n\n\nᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ ɴɪᴄᴏ"})
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "```᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ!```\n\nᎠҽѵҽӀօքҽɾ : ♦️⇝͜͡✪ஓீ͜ɴͥɪᴄᷧᴏᷟ࿐♠\n\n*ᴠᴇʀꜱɪᴏɴ:* ```Version 1.0```\n\n*ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ:* https://www.youtube.com/SLTechnicalTips\n\n*ᴘᴜʙʟɪᴄ ᴄᴏᴍᴍᴀɴᴅꜱ ɢʀᴏᴜᴘ:* https://chat.whatsapp.com/BzQiMPrabddJ4RfulG5888\n*ᴇʜɪ ɢʀᴏᴜᴘ:* https://chat.whatsapp.com/EaTyMitf8I91O21yZlj1Jf\n\n\nᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ ɴɪᴄᴏ"})
 
     }
     else {
@@ -59,7 +59,7 @@ else if (Config.WORKTYPE == 'public') {
             
             var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
        
-        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "```᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ!```\n\nᎠҽѵҽӀօքҽɾ : ♦️⇝͜͡✪ஓீ͜ɴͥɪᴄᷧᴏᷟ࿐♠\n\n*ᴠᴇʀꜱɪᴏɴ:* ```Version 1.0```*\n\n*ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ: https://www.youtube.com/SLTechnicalTips\n\n*ᴘᴜʙʟɪᴄ ᴄᴏᴍᴍᴀɴᴅꜱ ɢʀᴏᴜᴘ:* ```https://chat.whatsapp.com/BzQiMPrabddJ4RfulG5888```\n*ᴇʜɪ ɢʀᴏᴜᴘ:* https://chat.whatsapp.com/EaTyMitf8I91O21yZlj1Jf\n\n\nᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ ɴɪᴄᴏ"})
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "```᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ!```\n\nᎠҽѵҽӀօքҽɾ : ♦️⇝͜͡✪ஓீ͜ɴͥɪᴄᷧᴏᷟ࿐♠\n\n*ᴠᴇʀꜱɪᴏɴ:* ```Version 1.0```\n\n*ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ:* https://www.youtube.com/SLTechnicalTips\n\n*ᴘᴜʙʟɪᴄ ᴄᴏᴍᴍᴀɴᴅꜱ ɢʀᴏᴜᴘ:* https://chat.whatsapp.com/BzQiMPrabddJ4RfulG5888`\n*ᴇʜɪ ɢʀᴏᴜᴘ:* https://chat.whatsapp.com/EaTyMitf8I91O21yZlj1Jf\n\n\nᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ ɴɪᴄᴏ"})
 
     }
     else {
