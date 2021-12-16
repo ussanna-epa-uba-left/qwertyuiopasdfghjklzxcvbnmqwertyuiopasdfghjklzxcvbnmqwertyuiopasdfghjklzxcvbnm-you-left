@@ -205,15 +205,15 @@
             "ADMİN": "*මම මෙම කණ්ඩායමේ admin නොවේ!*"
         },
         "updater": {
-            "UPDATER_DESC": "Checks the update.",
-            "UPDATE": "*Your bot is completely up-to-date!*",
-            "NEW_UPDATE": "*New update available for Bot!*\n\nChanges:\n```",
-            "UPDATE_NOW_DESC": "It makes updates.",
-            "UPDATING": "_Updating..._",
-            "INVALID_HEROKU": "*❌ Your Heroku information is wrong!*",
+            "UPDATER_DESC": "update පරීක්ශා කරයි.",
+            "UPDATE": "*ඔබගේ BOT සම්පූර්ණයෙන්ම යාවත්කාලීනයි!*",
+            "NEW_UPDATE": "*නව යාවත්කාලීන කිරීම් ලැබී ඇත!*\n\nවෙනස්කම්:\n```",
+            "UPDATE_NOW_DESC": "මේ මොහොතේම යාවත්කාලීන කරයි.",
+            "UPDATING": "_Updating..._ 🔄",
+            "INVALID_HEROKU": "*❌ ඔබගේ හෙරොකු දත්ත වැරදිය! කරුණාකර ඒවා පරීක්ශා කරන්න*",
             "UPDATED": "*✅ Successfully Updated!*",
             "UPDATED_LOCAL": "*✅ Successfully Updated!*",
-            "AFTER_UPDATE": "*💬 ᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ Restarting Automatically!*"
+            "AFTER_UPDATE": "*💬 ᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ ස්වයංක්‍රීයව නැවත ආරම්භ කරමින්!*"
         },
         "weather": {
             "WEATHER_DESC": "කාලගුණය පෙන්වයි.",
@@ -395,7 +395,7 @@
             "SUCCESSFULLY_ADDED": "Successfully added new note, check your notes with .notes.",
             "UNSUCCESSFUL": "Could not add note, please try again later or contact Cyber Queen developers.",
             "DELETE_USAGE": "ඔබගේ සුරකින ලද සටහන් *සියල්ල* මකා දමයි.",
-            "SUCCESSFULLY_DELETED": "Successfully deleted all your notes."
+            "SUCCESSFULLY_DELETED": "සාර්ථක ලෙස සියලූම notes මකා ඇත."
         },
         "instagram": {
             "NEED_WORD": "*කරුණාකර ඕනෑම instagram ගිණුමක username ඇතුළත් කරන්න.*",
