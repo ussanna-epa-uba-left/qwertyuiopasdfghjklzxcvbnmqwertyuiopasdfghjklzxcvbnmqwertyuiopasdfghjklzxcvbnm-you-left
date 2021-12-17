@@ -2,7 +2,7 @@
 
 
 ## Hi there <img src="https://github.com/souvikguria98/souvikguria98/blob/master/Hi.gif" width="25">  I am ᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ
- 
+
  
 <div align="center">
   <img border-radius: 15px src="https://i.ibb.co/J3FK9zw/image.png" width="480" height="350"/>
