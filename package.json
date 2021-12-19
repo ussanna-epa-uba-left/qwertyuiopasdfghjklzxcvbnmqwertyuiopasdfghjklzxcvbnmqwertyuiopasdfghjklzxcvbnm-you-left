@@ -1,25 +1,25 @@
 {
   "name": "CyberQueen",
-  "version": "1.0.5",
+  "version": "3.0.4",
   "description": "CyberQueen - Whatsapp userbot. ",
-  "main": "./BlackKingdom/bot.js",
+  "main": "./CyberQueen/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Blackkingdoms/blackkingdom.git"
+    "url": "git+https://github.com/waqqw/CyberQueen.git"
   },
   "keywords": [
     "whatsapp"
   ],
-  "author": "BlackKingdomDev / BlackKingdoms",
-  "developer": "BlackKingdomDev / @BlackKingdoms",
+  "author": "waqqwDev / nico",
+  "developer": "nicoDev / @waqqw",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/BlackKingdoms/BlackKingdom/issues"
+    "url": "https://github.com/waqqw/CyberQueen/issues"
   },
-  "homepage": "https://github.com/BlackKingdoms/BlackKingdom#readme",
+  "homepage": "https://github.com/waqqw/CyberQueen#readme",
   "dependencies": {
     "@adiwajshing/baileys": "3.4.1",
     "@lh2020/speedtest-net": "^2.1.1",
