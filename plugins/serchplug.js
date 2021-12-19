@@ -5,7 +5,7 @@ you may not use this file except in compliance with the License.
 
 Whats bot - NICO
 
-*/
+
 
 const Asena = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
@@ -24,4 +24,4 @@ Asena.addCommand({pattern: 'search', fromMe: true, delowndinukacmd: false, desc:
       await message.client.sendMessage(
         message.jid,AAB, MessageType.text);
                                             
-  }));
+  }));*/
