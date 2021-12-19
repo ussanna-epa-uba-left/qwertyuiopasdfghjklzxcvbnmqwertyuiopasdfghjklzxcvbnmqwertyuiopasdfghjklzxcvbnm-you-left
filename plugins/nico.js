@@ -12,8 +12,8 @@ const {MessageType} = require('@adiwajshing/baileys');
 const Config = require('../config');
 const cyber = ('Cyber Queen Github Link');
 const AAA = ('CYBER QUEEN WA BOT LINKS')
-const AAB = "🅒🅨🅑🅔🅡 🅠🅤🅔🅔🅝 links එක ඉහත ඇත,"
-const AAC = "⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍\n᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ WhatsApp BOT 1.0v BETA Edition Available now!💃🏻♥️ \n\nGithub Link :\nhttps://github.com/SLTechnicalTips/CyberQueen\n\nInstall bot : https://heroku.com/deploy?template=https://github.com/SLTechnicalTips/CyberQueen\n\nQR Code :\nhttps://replit.com/@NICONico6/CyberQueen-QR\n⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎"
+const AAB = "🅒🅨🅑🅔🅡 🅠🅤🅔🅔🅝 links ඉහත ඇත,"
+const AAC = "ɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴄʏʙᴇʀ ǫᴜᴇᴇɴ ʙᴏᴛ ᴡɪᴛʜ ꜱɪᴍᴘʟᴇ ᴇʀʀᴏʀꜱ. ʏᴏᴜ ᴄᴀɴ ɴᴏᴡ ᴅᴇᴘʟᴏʏ ᴠɪᴀ ᴛʜɪꜱ ʟɪɴᴋꜱ 💃♥️\n᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ ʙᴇᴛᴀ ᴇᴅɪᴛɪᴏɴ \n\nɢɪᴛʜᴜʙ ʟɪɴᴋ:\nhttps://github.com/SLTechnicalTips/CyberQueen\n\nɪɴꜱᴛᴀʟʟ ʙᴏᴛ:\nhttps://heroku.com/deploy?template=https://github.com/SLTechnicalTips/CyberQueen\n\nǫʀ ᴄᴏᴅᴇ ʟɪɴᴋ:\nhttps://replit.com/@NICONico6/CyberQueen-QR\n\nᴄᴏᴘʏʀɪɢʜᴛ © | ᴄʏʙᴇʀ ǫᴜᴇᴇɴ\n↝↢↤⟲⟲⟲⤛⤛⤜⤜⟳⟳⟳↦↣↜"
 Asena.addCommand({pattern: 'git', fromMe: true, delowndinukacmd: false, desc: AAA,}, (async (message, match) => {
 
   var msg = await message.reply('CYBER QUEEN GITHUB LINK');
