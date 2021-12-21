@@ -32,8 +32,9 @@ Asena.addCommand({pattern: 'pro1', fromMe: true, deleteCommand: true, desc: GM,}
     r_text[17] ="Old doges bark not for nothing";
     r_text[18] ="Coming events cast their shadow before";
     r_text[19] ="Example is better than precept";
+    r_text[20] ="Powerd By ᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ";
 
-    var i = Math.floor(20*Math.random())
+    var i = Math.floor(21*Math.random())
 
     await message.client.sendMessage(
         message.jid,(r_text[i]), MessageType.text);
@@ -50,10 +51,25 @@ Asena.addCommand({pattern: 'pro2', fromMe: true, deleteCommand: true, desc: GN,}
         r_text[3] ="Every dark cloud has a silver linning";
         r_text[4] ="God made the country; man made the town";
         r_text[5] ="Courtesy costs nothing";
+        r_text[6] ="Do not keep all your eggs in one basket";
+        r_text[7] ="Fire is good servant but a bad master";
+        r_text[8] ="Fortune favors the brave";
+        r_text[9] ="All that glitters is not gold";
+        r_text[10] ="A friend in need is a friend indeed";
+        r_text[11] ="Honesty is the best policy";
+        r_text[11] ="Honey was not made for the mouth of the ass";
+        r_text[12] ="One may lead a horse to the water, but twenty cannot make him drink";
+        r_text[13] ="Where ignorance is bliss, 'tis folly to be wise";
+        r_text[14] ="A man is known by his friends";
+        r_text[15] ="Speech is silver, silence is golden";
+        r_text[16] ="Empty vessels make the most noise";
+        r_text[17] ="Set a thief to catch a thief";
+        r_text[18] ="Were there's a will there's a way";
+        r_text[19] ="Powerd By ᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ";
 
       
     
-        var i = Math.floor(6*Math.random())
+        var i = Math.floor(20*Math.random())
     
         await message.client.sendMessage(
             message.jid,(r_text[i]), MessageType.text);
@@ -87,9 +103,10 @@ Asena.addCommand({pattern: 'pro2', fromMe: true, deleteCommand: true, desc: GN,}
             r_text[17] ="Old doges bark not for nothing";
             r_text[18] ="Coming events cast their shadow before";
             r_text[19] ="Example is better than precept";
+            r_text[20] ="Powerd By ᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ";
           
         
-            var i = Math.floor(20*Math.random())
+            var i = Math.floor(21*Math.random())
         
             await message.client.sendMessage(
                 message.jid,(r_text[i]), MessageType.text);
@@ -106,10 +123,26 @@ Asena.addCommand({pattern: 'pro2', fromMe: true, deleteCommand: true, desc: GN,}
                 r_text[3] ="Every dark cloud has a silver linning";
                 r_text[4] ="God made the country; man made the town";
                 r_text[5] ="Courtesy costs nothing";
+                r_text[6] ="Do not keep all your eggs in one basket";
+                r_text[7] ="Fire is good servant but a bad master";
+                r_text[8] ="Fortune favors the brave";
+                r_text[9] ="All that glitters is not gold";
+                r_text[10] ="A friend in need is a friend indeed";
+                r_text[11] ="Honesty is the best policy";
+                r_text[11] ="Honey was not made for the mouth of the ass";
+                r_text[12] ="One may lead a horse to the water, but twenty cannot make him drink";
+                r_text[13] ="Where ignorance is bliss, 'tis folly to be wise";
+                r_text[14] ="A man is known by his friends";
+                r_text[15] ="Speech is silver, silence is golden";
+                r_text[16] ="Empty vessels make the most noise";
+                r_text[17] ="Set a thief to catch a thief";
+                r_text[18] ="Were there's a will there's a way";
+                r_text[19] ="Powerd By ᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ";
+
         
               
             
-                var i = Math.floor(6*Math.random())
+                var i = Math.floor(20*Math.random())
             
                 await message.client.sendMessage(
                     message.jid,(r_text[i]), MessageType.text);
@@ -138,9 +171,10 @@ Asena.addCommand({pattern: 'pro2', fromMe: true, deleteCommand: true, desc: GN,}
                     r_text[17] ="Old doges bark not for nothing";
                     r_text[18] ="Coming events cast their shadow before";
                     r_text[19] ="Example is better than precept";
-                  
+                    r_text[20] ="Powerd By ᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ";
+                    
                 
-                    var i = Math.floor(20*Math.random())
+                    var i = Math.floor(21*Math.random())
                 
                     await message.client.sendMessage(
                         message.jid,(r_text[i]), MessageType.text);
@@ -157,10 +191,26 @@ Asena.addCommand({pattern: 'pro2', fromMe: true, deleteCommand: true, desc: GN,}
                         r_text[3] ="Every dark cloud has a silver linning";
                         r_text[4] ="God made the country; man made the town";
                         r_text[5] ="Courtesy costs nothing";
+                        r_text[6] ="Do not keep all your eggs in one basket";
+                        r_text[7] ="Fire is good servant but a bad master";
+                        r_text[8] ="Fortune favors the brave";
+                        r_text[9] ="All that glitters is not gold";
+                        r_text[10] ="A friend in need is a friend indeed";
+                        r_text[11] ="Honesty is the best policy";
+                        r_text[11] ="Honey was not made for the mouth of the ass";
+                        r_text[12] ="One may lead a horse to the water, but twenty cannot make him drink";
+                        r_text[13] ="Where ignorance is bliss, 'tis folly to be wise";
+                        r_text[14] ="A man is known by his friends";
+                        r_text[15] ="Speech is silver, silence is golden";
+                        r_text[16] ="Empty vessels make the most noise";
+                        r_text[17] ="Set a thief to catch a thief";
+                        r_text[18] ="Were there's a will there's a way";
+                        r_text[19] ="Powerd By ᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ";
+
                 
                       
                     
-                        var i = Math.floor(6*Math.random())
+                        var i = Math.floor(20*Math.random())
                     
                         await message.client.sendMessage(
                             message.jid,(r_text[i]), MessageType.text);
