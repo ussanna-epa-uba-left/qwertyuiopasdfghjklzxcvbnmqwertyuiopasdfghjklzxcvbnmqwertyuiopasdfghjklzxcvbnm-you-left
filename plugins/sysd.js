@@ -20,9 +20,20 @@ Asena.addCommand({pattern: 'pro1', fromMe: true, deleteCommand: true, desc: GM,}
     r_text[5] ="Everybody's business is nobody's business";
     r_text[6] ="Birds of festher flock together";
     r_text[7] ="A bird in the hand is worth two in the brush";
-  
+    r_text[8] ="Cleanliness is next to godliness";
+    r_text[9] ="Do not count your chicken before they are hatched";
+    r_text[10] ="If the cap fits wear it";
+    r_text[11] ="Too many cooks spoil the broth";
+    r_text[12] ="Cowards die many times before their death";
+    r_text[13] ="No cross, no crown";
+    r_text[14] ="Let sleeping dog lie";
+    r_text[15] ="Barking dorks seldom bite";
+    r_text[16] ="Every dog has his day";
+    r_text[17] ="Old doges bark not for nothing";
+    r_text[18] ="Coming events cast their shadow before";
+    r_text[19] ="Example is better than precept";
 
-    var i = Math.floor(8*Math.random())
+    var i = Math.floor(20*Math.random())
 
     await message.client.sendMessage(
         message.jid,(r_text[i]), MessageType.text);
@@ -64,9 +75,21 @@ Asena.addCommand({pattern: 'pro2', fromMe: true, deleteCommand: true, desc: GN,}
             r_text[5] ="Everybody's business is nobody's business";
             r_text[6] ="Birds of festher flock together";
             r_text[7] ="A bird in the hand is worth two in the brush";
+            r_text[8] ="Cleanliness is next to godliness";
+            r_text[9] ="Do not count your chicken before they are hatched";
+            r_text[10] ="If the cap fits wear it";
+            r_text[11] ="Too many cooks spoil the broth";
+            r_text[12] ="Cowards die many times before their death";
+            r_text[13] ="No cross, no crown";
+            r_text[14] ="Let sleeping dog lie";
+            r_text[15] ="Barking dorks seldom bite";
+            r_text[16] ="Every dog has his day";
+            r_text[17] ="Old doges bark not for nothing";
+            r_text[18] ="Coming events cast their shadow before";
+            r_text[19] ="Example is better than precept";
           
         
-            var i = Math.floor(8*Math.random())
+            var i = Math.floor(20*Math.random())
         
             await message.client.sendMessage(
                 message.jid,(r_text[i]), MessageType.text);
@@ -103,9 +126,21 @@ Asena.addCommand({pattern: 'pro2', fromMe: true, deleteCommand: true, desc: GN,}
                     r_text[5] ="Everybody's business is nobody's business";
                     r_text[6] ="Birds of festher flock together";
                     r_text[7] ="A bird in the hand is worth two in the brush";
+                    r_text[8] ="Cleanliness is next to godliness";
+                    r_text[9] ="Do not count your chicken before they are hatched";
+                    r_text[10] ="If the cap fits wear it";
+                    r_text[11] ="Too many cooks spoil the broth";
+                    r_text[12] ="Cowards die many times before their death";
+                    r_text[13] ="No cross, no crown";
+                    r_text[14] ="Let sleeping dog lie";
+                    r_text[15] ="Barking dorks seldom bite";
+                    r_text[16] ="Every dog has his day";
+                    r_text[17] ="Old doges bark not for nothing";
+                    r_text[18] ="Coming events cast their shadow before";
+                    r_text[19] ="Example is better than precept";
                   
                 
-                    var i = Math.floor(8*Math.random())
+                    var i = Math.floor(20*Math.random())
                 
                     await message.client.sendMessage(
                         message.jid,(r_text[i]), MessageType.text);
