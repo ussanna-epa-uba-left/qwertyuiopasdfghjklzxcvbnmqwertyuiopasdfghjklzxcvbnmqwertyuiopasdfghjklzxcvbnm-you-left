@@ -1,9 +1,9 @@
-/* Copyright (C) 2020 Blackkingdom .
+/* Copyright (C) 2021 CyberQueen.
 
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
 
-Blackkingdom  - Blackkingdom 
+WhatsAsena - Yusuf Usta
 */
 
 const chalk = require('chalk');
@@ -16,31 +16,31 @@ async function whatsAsena() {
 	conn.version = [3, 3234, 9]
 
 	conn.on('connecting', async () => {
-		console.log(`${chalk.green.bold('BLACK')}${chalk.blue.bold('KINGDOM')}
-${chalk.white.italic('BLACKKINGDOM  Strings')}
+		console.log(`${chalk.green.bold('Cyber')}${chalk.blue.bold('Queen')}
+${chalk.white.italic('Cyber Queen WhatsApp BOT By NICO')}
 ${chalk.blue.italic('ℹ️  Connecting to Whatsapp... Please wait.')}`);
 	});
 
 	conn.on('open', async () => {
 		console.log(
-			chalk.green.bold('BLACKKINGDOM QR Code: '),
-			'BLACKKINGDOM ;;;' +
+			chalk.green.bold('Cyber Queen QR Code: '),
+			'CyberQueen;;;' +
 				Buffer.from(JSON.stringify(conn.base64EncodedAuthInfo())).toString(
 					'base64'
 				)
 		);
 		await conn.sendMessage(
 			conn.user.jid,
-			'BLACKKINGDOM;;;' +
+			'CyberQueen;;;' +
 				Buffer.from(JSON.stringify(conn.base64EncodedAuthInfo())).toString(
 					'base64'
 				),
 			MessageType.text
 		);
-		if (conn.user.jid.startsWith('94')) {
+		if (conn.user.jid.startsWith('90')) {
 			await conn.sendMessage(
 				conn.user.jid,
-				'*⚠️ Meka yavanna epa katawath ' + conn.user.name + '* ⚠️',
+				'*⚠️ meka katavath denna epa ' + conn.user.name + '* ⚠️',
 				MessageType.text
 			);
 		} else {
@@ -54,7 +54,7 @@ ${chalk.blue.italic('ℹ️  Connecting to Whatsapp... Please wait.')}`);
 		}
 		console.log(
 			chalk.green.bold(
-				"Meka copy karanna bari nam bn whatsapp eke athi bn code eka awith!\n"
+				"me code eka oyage number ekata avith ati!\n"
 			),
 			chalk.green.bold(
 				'IF YOU CANNOT COPY THE MESSAGE, PLEASE CHECK WHATSAPP. QR CODE SENT TO YOUR OWN NUMBER!'
@@ -66,4 +66,4 @@ ${chalk.blue.italic('ℹ️  Connecting to Whatsapp... Please wait.')}`);
 	await conn.connect();
 }
 
-whatsAsena(); 
+whatsAsena();
