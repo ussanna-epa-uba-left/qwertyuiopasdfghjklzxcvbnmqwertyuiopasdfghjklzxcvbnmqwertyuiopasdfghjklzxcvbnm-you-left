@@ -32,7 +32,7 @@ const Config = require('../config');
 
 
 if (Config.WORKTYPE == 'private') {
-Asena.addCommand({pattern: 'cqversion', fromMe: true, deleteCommand: true, desc: M,}, (async (message, match) => {
+Asena.addCommand({pattern: 'version', fromMe: true, deleteCommand: true, desc: M,}, (async (message, match) => {
 
     var r_text = new Array ();
 
@@ -46,7 +46,7 @@ Asena.addCommand({pattern: 'cqversion', fromMe: true, deleteCommand: true, desc:
     }));
 
 
-Asena.addCommand({pattern: 'proversion', fromMe: true, deleteCommand: true, desc: N,}, (async (message, match) => {
+Asena.addCommand({pattern: 'cqversion', fromMe: true, deleteCommand: true, desc: N,}, (async (message, match) => {
 
         var r_text = new Array ();
     
@@ -64,7 +64,7 @@ Asena.addCommand({pattern: 'proversion', fromMe: true, deleteCommand: true, desc
     
 
     if (Config.WORKTYPE == 'public') {
-        Asena.addCommand({pattern: 'cqversion', fromMe: false, deleteCommand: true, desc: M,}, (async (message, match) => {
+        Asena.addCommand({pattern: 'version', fromMe: false, deleteCommand: true, desc: M,}, (async (message, match) => {
         
             var r_text = new Array ();
         
@@ -78,7 +78,7 @@ Asena.addCommand({pattern: 'proversion', fromMe: true, deleteCommand: true, desc
             }));
         
         
-        Asena.addCommand({pattern: 'proversion', fromMe: false, deleteCommand: true, desc: N,}, (async (message, match) => {
+        Asena.addCommand({pattern: 'cqversion', fromMe: false, deleteCommand: true, desc: N,}, (async (message, match) => {
         
                 var r_text = new Array ();
             
@@ -90,7 +90,7 @@ Asena.addCommand({pattern: 'proversion', fromMe: true, deleteCommand: true, desc
                     message.jid,(r_text[i]), MessageType.text);
             
                 }));    
-                Asena.addCommand({pattern: 'qaversion', fromMe: true, deleteCommand: true,dontAddCommandList: true }, (async (message, match) => {
+                Asena.addCommand({pattern: 'version', fromMe: true, deleteCommand: true,dontAddCommandList: true }, (async (message, match) => {
         
                     var r_text = new Array ();
                 
@@ -105,7 +105,7 @@ Asena.addCommand({pattern: 'proversion', fromMe: true, deleteCommand: true, desc
                     }));
                 
                 
-                Asena.addCommand({pattern: 'proversion', fromMe: true, deleteCommand: true,dontAddCommandList: true }, (async (message, match) => {
+                Asena.addCommand({pattern: 'cqversion', fromMe: true, deleteCommand: true,dontAddCommandList: true }, (async (message, match) => {
                 
                         var r_text = new Array ();
                     
