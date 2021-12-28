@@ -1,7 +1,7 @@
 /* Copyright (C) 2021 T-REX
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
-T-REX HIRUWA
+
 */
 
 const fs = require("fs");
@@ -17,7 +17,7 @@ const axios = require('axios');
 const got = require('got');
 
 // ════════════════════SQL🍁🍁
-const TrexDB = config.DATABASE.define('Trex', {
+const WhatsAsenaDB = config.DATABASE.define('WhatsAsenaDuplicated', {   
     info: {
       type: DataTypes.STRING,
       allowNull: false
