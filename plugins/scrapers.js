@@ -1,8 +1,6 @@
 /* Copyright (C) 2020 Yusuf Usta.
-
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
-
 WhatsAsena - Yusuf Usta
 */
 
@@ -164,63 +162,28 @@ if (config.WORKTYPE == 'private') {
     }));
 
     Asena.addCommand({pattern: 'video ?(.*)', fromMe: true, desc: Lang.VIDEO_DESC}, (async (message, match) => { 
-        if (match[1].includes('facebook.com')) {return await message.client.sendMessage(message.jid, '```Please Enter Valid Link!```', MessageType.text)}
-        if (match[1].includes('facebook')) {return await message.client.sendMessage(message.jid, '```Please Enter Valid Link!```', MessageType.text)}
-        if (match[1].includes('xnxx.com')) {return await message.client.sendMessage(message.jid, '```Please Enter Valid Link!```', MessageType.text)}
-        if (match[1].includes('xnxx')) {return await message.client.sendMessage(message.jid, '```Please Enter Valid Link!```', MessageType.text)}
-        if (match[1].includes('pornhub.com')) {return await message.client.sendMessage(message.jid, '```Please Enter Valid Link!```', MessageType.text)}
-        if (match[1].includes('pornhub')) {return await message.client.sendMessage(message.jid, '```Please Enter Valid Link!```', MessageType.text)}
-        if (match[1].includes('xhamster.com')) {return await message.client.sendMessage(message.jid, '```Please Enter Valid Link!```', MessageType.text)}
-        if (match[1].includes('xhamster')) {return await message.client.sendMessage(message.jid, '```Please Enter Valid Link!```', MessageType.text)}
-        if (match[1].includes('shorts')){
-            const video_id = match[1].split('shorts/')[1]
-            const l_video_id = video_id.split('?')[0]
-            const link = `https://youtu.be/${l_video_id}`            
-            var VID = '';
-            try {
-            if (link.includes('watch')) {
-                var tsts = link.replace('watch?v=', '')
-                var alal = tsts.split('/')[3]
-                VID = alal
-            } else {     
-                VID = link.split('/')[3]
-            }
-        } catch {
-            return await message.client.sendMessage(message.jid,Lang.NO_RESULT,MessageType.text);
-        }
-        var reply = await message.client.sendMessage(message.jid,config.VIDEO_DOWN,MessageType.text);
 
-        var yt = ytdl(VID, {filter: format => format.container === 'mp4' && ['720p', '480p', '360p', '240p', '144p'].map(() => true)});
-        yt.pipe(fs.createWriteStream('./' + VID + '.mp4'));
+        if (message.jid === '905524317852-1612300121@g.us') {
 
-        yt.on('end', async () => {
-            reply = await message.client.sendMessage(message.jid,config.VIDEO_UP,MessageType.text);
-            await message.client.sendMessage(message.jid,fs.readFileSync('./' + VID + '.mp4'), MessageType.video, {mimetype: Mimetype.mp4});
-        });        
-           return;
+            return;
         }
+
         if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_VIDEO,MessageType.text);    
     
-        var VID = '';
         try {
-            if (match[1].includes('watch')) {
-                var tsts = match[1].replace('watch?v=', '')
-                var alal = tsts.split('/')[3]
-                VID = alal
-            } else {     
-                VID = match[1].split('/')[3]
-            }
+            var arama = await yts({videoId: ytdl.getURLVideoID(match[1])});
         } catch {
             return await message.client.sendMessage(message.jid,Lang.NO_RESULT,MessageType.text);
         }
-        var reply = await message.client.sendMessage(message.jid,config.VIDEO_DOWN,MessageType.text);
 
-        var yt = ytdl(VID, {filter: format => format.container === 'mp4' && ['720p', '480p', '360p', '240p', '144p'].map(() => true)});
-        yt.pipe(fs.createWriteStream('./' + VID + '.mp4'));
+        var reply = await message.client.sendMessage(message.jid,Lang.DOWNLOADING_VIDEO,MessageType.text);
+
+        var yt = ytdl(arama.videoId, {filter: format => format.container === 'mp4' && ['720p', '480p', '360p', '240p', '144p'].map(() => true)});
+        yt.pipe(fs.createWriteStream('./' + arama.videoId + '.mp4'));
 
         yt.on('end', async () => {
-            reply = await message.client.sendMessage(message.jid,config.VIDEO_UP,MessageType.text);
-            await message.client.sendMessage(message.jid,fs.readFileSync('./' + VID + '.mp4'), MessageType.video, {mimetype: Mimetype.mp4});
+            reply = await message.client.sendMessage(message.jid,Lang.UPLOADING_VIDEO,MessageType.text);
+            await message.client.sendMessage(message.jid,fs.readFileSync('./' + arama.videoId + '.mp4'), MessageType.video, {quoted: message.data}, {mimetype: Mimetype.mp4});
         });
     }));
 
@@ -462,64 +425,29 @@ else if (config.WORKTYPE == 'public') {
             });
     }));
 
-Asena.addCommand({pattern: 'video ?(.*)', fromMe: false, desc: Lang.VIDEO_DESC}, (async (message, match) => { 
-        if (match[1].includes('facebook.com')) {return await message.client.sendMessage(message.jid, '```Please Enter Valid Link!```', MessageType.text)}
-        if (match[1].includes('facebook')) {return await message.client.sendMessage(message.jid, '```Please Enter Valid Link!```', MessageType.text)}
-        if (match[1].includes('xnxx.com')) {return await message.client.sendMessage(message.jid, '```Please Enter Valid Link!```', MessageType.text)}
-        if (match[1].includes('xnxx')) {return await message.client.sendMessage(message.jid, '```Please Enter Valid Link!```', MessageType.text)}
-        if (match[1].includes('pornhub.com')) {return await message.client.sendMessage(message.jid, '```Please Enter Valid Link!```', MessageType.text)}
-        if (match[1].includes('pornhub')) {return await message.client.sendMessage(message.jid, '```Please Enter Valid Link!```', MessageType.text)}
-        if (match[1].includes('xhamster.com')) {return await message.client.sendMessage(message.jid, '```Please Enter Valid Link!```', MessageType.text)}
-        if (match[1].includes('xhamster')) {return await message.client.sendMessage(message.jid, '```Please Enter Valid Link!```', MessageType.text)}
-        if (match[1].includes('shorts')){
-            const video_id = match[1].split('shorts/')[1]
-            const l_video_id = video_id.split('?')[0]
-            const link = `https://youtu.be/${l_video_id}`            
-            var VID = '';
-            try {
-            if (link.includes('watch')) {
-                var tsts = link.replace('watch?v=', '')
-                var alal = tsts.split('/')[3]
-                VID = alal
-            } else {     
-                VID = link.split('/')[3]
-            }
-        } catch {
-            return await message.client.sendMessage(message.jid,Lang.NO_RESULT,MessageType.text);
-        }
-        var reply = await message.client.sendMessage(message.jid,config.VIDEO_DOWN,MessageType.text);
+    Asena.addCommand({pattern: 'video ?(.*)', fromMe: false, desc: Lang.VIDEO_DESC}, (async (message, match) => { 
 
-        var yt = ytdl(VID, {filter: format => format.container === 'mp4' && ['720p', '480p', '360p', '240p', '144p'].map(() => true)});
-        yt.pipe(fs.createWriteStream('./' + VID + '.mp4'));
+        if (message.jid === '905524317852-1612300121@g.us') {
 
-        yt.on('end', async () => {
-            reply = await message.client.sendMessage(message.jid,config.VIDEO_UP,MessageType.text);
-            await message.client.sendMessage(message.jid,fs.readFileSync('./' + VID + '.mp4'), MessageType.video, {mimetype: Mimetype.mp4});
-        });        
-           return;
+            return;
         }
-        if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_VIDEO,MessageType.text);    
+
+        if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_VIDEO,MessageType.text, {quoted: message.data});    
     
-        var VID = '';
         try {
-            if (match[1].includes('watch')) {
-                var tsts = match[1].replace('watch?v=', '')
-                var alal = tsts.split('/')[3]
-                VID = alal
-            } else {     
-                VID = match[1].split('/')[3]
-            }
+            var arama = await yts({videoId: ytdl.getURLVideoID(match[1])});
         } catch {
             return await message.client.sendMessage(message.jid,Lang.NO_RESULT,MessageType.text);
         }
-        var reply = await message.client.sendMessage(message.jid,config.VIDEO_DOWN,MessageType.text);
 
-        var yt = ytdl(VID, {filter: format => format.container === 'mp4' && ['720p', '480p', '360p', '240p', '144p'].map(() => true)});
-        yt.pipe(fs.createWriteStream('./' + VID + '.mp4'));
+        var reply = await message.client.sendMessage(message.jid,Lang.DOWNLOADING_VIDEO,MessageType.text, {quoted: message.data});
+
+        var yt = ytdl(arama.videoId, {filter: format => format.container === 'mp4' && ['720p', '480p', '360p', '240p', '144p'].map(() => true)});
+        yt.pipe(fs.createWriteStream('./' + arama.videoId + '.mp4'));
 
         yt.on('end', async () => {
-            reply = await message.client.sendMessage(message.jid,config.VIDEO_UP,MessageType.text);
-            await message.client.sendMessage(message.jid,fs.readFileSync('./' + VID + '.mp4'), MessageType.video, {mimetype: Mimetype.mp4});
+            reply = await message.client.sendMessage(message.jid,Lang.UPLOADING_VIDEO,MessageType.text, {quoted: message.data});
+            await message.client.sendMessage(message.jid,fs.readFileSync('./' + arama.videoId + '.mp4'), MessageType.video, {quoted: message.data}, {mimetype: Mimetype.mp4});
         });
     }));
 
