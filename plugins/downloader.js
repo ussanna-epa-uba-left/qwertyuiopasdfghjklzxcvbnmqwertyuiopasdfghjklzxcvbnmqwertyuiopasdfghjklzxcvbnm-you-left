@@ -8,7 +8,7 @@ const IG_DESC = "Instagram වෙතින් රූපය / වීඩියෝ 
 const NEED_WORD = "Must Enter a link"
 const FBDESC = "ෆේස්බුක් වෙතින් වීඩියෝ බාගත කරයි"
 const LOADING = "වීඩියෝ බාගත කිරීම..."
-const NOT_FOUNDFB = "වීඩියෝව හමු නොවීය"
+const NOT_FOUNDFB = "වීඩියෝව හමු නොවීය!"
 const CAPTION = "Caption"
 
 Asena.addCommand({ pattern: 'ig ?(.*)', fromMe: false, desc: IG_DESC}, async (message, match) => {
