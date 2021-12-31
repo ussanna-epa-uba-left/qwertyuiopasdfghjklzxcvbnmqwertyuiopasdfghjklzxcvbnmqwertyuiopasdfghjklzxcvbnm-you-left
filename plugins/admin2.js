@@ -1,7 +1,5 @@
-/* Codded by @sisula
-cobra bot developer
-2021 cobra bot project
-
+/* 
+CQ
 */
 const Asena = require('../events');
 const {MessageType,Mimetype} = require('@adiwajshing/baileys');
