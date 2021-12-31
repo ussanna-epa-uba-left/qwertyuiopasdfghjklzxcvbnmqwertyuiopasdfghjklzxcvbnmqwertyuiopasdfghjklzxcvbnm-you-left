@@ -68,7 +68,7 @@ if (Config.WORKTYPE == 'private') {
 
                     }
 
-                    CMD_HELP += '🎃 ' + Lang.COMMAND + ':* ```' + (match.length >= 3 ? (HANDLER + match[2]) : command.pattern) + (command.desc === '' ? '```\n\n' : '```\n');
+                    CMD_HELP += '🎃 ' + Lang.COMMAND + ': ```' + (match.length >= 3 ? (HANDLER + match[2]) : command.pattern) + (command.desc === '' ? '```\n\n' : '```\n');
 
                     if (command.desc !== '') CMD_HELP += '*👋 ' + Lang.DESC + ':* ```' + command.desc + (command.warn === '' ? '```\n\n' : '```\n');
 
@@ -132,7 +132,7 @@ if (Config.WORKTYPE == 'private') {
 
                         }
 
-                        CMD_HELP += '🔱 ' + Lang.COMMAND + ':* ```' + (cmatch.length >= 3 ? (HANDLER + cmatch[2]) : command.pattern) + (command.desc === '' ? '```\n\n' : '```\n');
+                        CMD_HELP += '🔱 ' + Lang.COMMAND + ': ```' + (cmatch.length >= 3 ? (HANDLER + cmatch[2]) : command.pattern) + (command.desc === '' ? '```\n\n' : '```\n');
 
                         if (command.desc !== '') CMD_HELP += '*⚓ ' + Lang.DESC + ':* ```' + command.desc + (command.warn === '' ? '```\n\n' : '```\n');
 
@@ -206,7 +206,7 @@ else if (Config.WORKTYPE == 'public') {
 
                     }
 
-                    CMD_HELP += '🔱 ' + Lang.COMMAND + ':* ```' + (match.length >= 3 ? (HANDLER + match[2]) : command.pattern) + (command.desc === '' ? '```\n\n' : '```\n');
+                    CMD_HELP += '🔱 ' + Lang.COMMAND + ': ```' + (match.length >= 3 ? (HANDLER + match[2]) : command.pattern) + (command.desc === '' ? '```\n\n' : '```\n');
 
                     if (command.desc !== '') CMD_HELP += '*⚓ ' + Lang.DESC + ':* ```' + command.desc + (command.warn === '' ? '```\n\n' : '```\n');
 
@@ -270,7 +270,7 @@ else if (Config.WORKTYPE == 'public') {
 
                         }
 
-                        CMD_HELP += '🔱 ' + Lang.COMMAND + ':* ```' + (cmatch.length >= 3 ? (HANDLER + cmatch[2]) : command.pattern) + (command.desc === '' ? '```\n\n' : '```\n');
+                        CMD_HELP += '🔱 ' + Lang.COMMAND + ': ```' + (cmatch.length >= 3 ? (HANDLER + cmatch[2]) : command.pattern) + (command.desc === '' ? '```\n\n' : '```\n');
 
                         if (command.desc !== '') CMD_HELP += '*⚓ ' + Lang.DESC + ':* ```' + command.desc + (command.warn === '' ? '```\n\n' : '```\n');
 
