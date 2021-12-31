@@ -57,7 +57,7 @@ SL Technical Tips YouTube Channel owner
 Click WA logo to Join Public Group 👇
     <br>
 <br>
-  [![join](https://github.com/Alien-alfa/PublicBot/blob/main/wlogo.svg.png)](https://chat.whatsapp.com/ELCDwI2kYJw0WrxhSZbeAV)
+  [![join](https://github.com/Alien-alfa/PublicBot/blob/main/wlogo.svg.png)](https://chat.whatsapp.com/HB1qciGHnMtEIpicPkzwpd)
   <div align="center">
        
 
