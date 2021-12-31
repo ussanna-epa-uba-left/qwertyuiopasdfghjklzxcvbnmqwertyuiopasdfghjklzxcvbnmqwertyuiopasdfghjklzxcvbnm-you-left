@@ -15,15 +15,16 @@ let LOL = Config.WORKTYPE == 'public' ? false : true
 const Language = require('../language');
 const Lang = Language.getString('system_stats');
 
+const RULE_DESC = "කණ්ඩායම් පරිපාලකයින් විසින් නියම කරන ලද නීති පෙන්වයි."
+const rules = "*පරිපාලකයින් විසින් නියම කරන ලද නීති නොමැත.*"
 
-
-Cyber.applyCMD({pattern: 'rules', fromMe: LOL,  deleteCommand: false, onlyGroup: true, desc: Lang.RULE_DESC}, (async (message, match) => {
+Cyber.applyCMD({pattern: 'rules', fromMe: LOL,  deleteCommand: false, onlyGroup: true, desc: RULE_DESC}, (async (message, match) => {
 
     if (Config.RULES == 'default') {
             
         var image = await axios.get (Config.RULES_LOGO, {responseType: 'arraybuffer'})
        
-    await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: '⚜️ *⟪Group Rules⟫* ⚜️\n\n' + Lang.rules})
+    await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: '⚜️ *⟪Group Rules⟫* ⚜️\n\n' + rules})
 
     }
     else {
