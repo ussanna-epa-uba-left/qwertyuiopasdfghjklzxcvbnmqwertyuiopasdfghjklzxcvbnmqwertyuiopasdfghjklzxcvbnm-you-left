@@ -10,9 +10,9 @@ const { errorMessage, infoMessage } = require('../helpers');
 const Config = require('../config');
 const Language = require('../language');
 const YTV_DESC = "Youtube Video Downloader V2 ."
-const YT_NEED = "*need word!.*"
-const DWLOAD_VID = "*Downloading Your Video...*"
-const YTV_UP = "*Uploading Your Video...*"
+const YT_NEED = "*Need word!.*"
+const DWLOAD_VID = "*∂σωηℓσα∂ιηg уσυя νι∂єσ = 🔍✨...*"
+const YTV_UP = "*υρℓσα∂ιηg уσυя νι∂єσ = 😈...*"
 const NO_RESULT = "*can't Find Anything...*"
 
 
