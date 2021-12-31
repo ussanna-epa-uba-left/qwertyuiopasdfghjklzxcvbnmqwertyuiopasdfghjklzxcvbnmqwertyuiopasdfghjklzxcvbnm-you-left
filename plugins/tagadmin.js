@@ -1,6 +1,5 @@
-/* Codded by @phaticusthiccy & @MrJoka-Thejaka
-Telegram: t.me/phaticusthiccy
-Instagram: www.instagram.com/kyrie.baran
+/* 
+2022
 */
 
 const Asena = require('../events');
