@@ -155,6 +155,16 @@
             "required": true,
             "value": "false"
         },
+        "RULES": {
+            "description": "You can set rules display to your groups.",
+            "required": true,
+            "value": "default"
+        },
+        "RULES LOGO": {
+            "description": "You can set rules logo display to your groups.",
+            "required": true,
+            "value": "https://i.ibb.co/268z6QF/R.jpg"
+        },
         "NO_ONLINE": {
             "description": "මෙය වෙනස් කිරිමට අත්‍යාවශ්‍යම නොවේ.",
             "required": false,
