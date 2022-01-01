@@ -1,7 +1,6 @@
 /* coded by sisula welgamage
-cobra bot project
 2021
-*/
+
 const Asena = require('../events');
 const Config = require('../config');
 const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
@@ -282,4 +281,4 @@ Asena.addCommand({pattern: 'prologo', fromMe: false, desc: Lang.TET_DESC}, (asyn
     var logoimg = await axios.get(Config.LOGOPK_IMG, { responseType: 'arraybuffer' })
     await message.sendMessage (Buffer.from (logoimg.data), MessageType.image, {mimetype: Mimetype.png, caption: msg }) 
  }));
-}
+}*/
