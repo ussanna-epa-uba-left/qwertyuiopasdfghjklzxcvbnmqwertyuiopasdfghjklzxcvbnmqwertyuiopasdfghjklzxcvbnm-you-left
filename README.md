@@ -24,9 +24,7 @@
         <a href="https://www.youtube.com/SLTechnicalTips">Youtube Channel</a>
     <br>
 </p>
-
-
-### Special Thanks For [Sisula](https://github.com/sisula) 
+ 
  
 ## Setup
 <div align="center">
@@ -51,10 +49,15 @@
   [![NICO](https://github.com/sltechnicaltips.png?size=100)](https://github.com/SLTechnicalTips)
 
 [Nico @SL Technical Tips](https://github.com/sltechnicaltips)  
-SL Technical Tips YouTube Channel owner 
   </div>
     
-<div align="center"><img src="https://profile-counter.glitch.me/SLTechnicalTips/count.svg" /><br>Profile Viewers</div>
+## Thanks for Everything 
+### I'll always remember you ❤️❤️❤️
+- [Sisula Welgamage](https://github.com/sisula)
+ 
+   
+## Profile Viewers
+<div align="center"><img src="https://profile-counter.glitch.me/SLTechnicalTips/count.svg" /></div>
 
 ## 📢 Guide
 Click WA logo to Join Public Group 👇
