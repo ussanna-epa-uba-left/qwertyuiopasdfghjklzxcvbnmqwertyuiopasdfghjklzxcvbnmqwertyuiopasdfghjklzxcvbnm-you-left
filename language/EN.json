@@ -197,12 +197,12 @@
             "DOWNLOADING": "```මාධ්‍ය download කිරීම සහ ස්ටිකර් බවට පරිවර්තනය කිරීම...```"
         },
         "system_stats": {
-            "ALIVE_DESC": "Check bot online or not",
-            "SYSD_DESC": "System properties.",
-            "BOT_V": "Check version of bot.",
-            "version": "3.4.0v - Public Edition",
-            "RULE_DESC": "Shows setted rules by Group Admins",
-            "rules": "*There is no rules setted by Admins.*"          
+            "ALIVE_DESC": "බොට් වැඩ කරන්නේ නැද්ද යන්න පරීක්ෂා කිරීමට?", 
+            "SYSD_DESC": "System properties පෙන්වයි.", 
+            "BOT_V": "ඔබ දැනට install කර තිබෙන bot version එක පෙන්වීම.", 
+            "version": "CyberQueen 3.0.4v - Beta Edition", 
+            "RULE_DESC": "කණ්ඩායම් පරිපාලකයින් විසින් නියම කරන ලද නීති පෙන්වයි.", 
+            "rules": "*පරිපාලකයින් විසින් නියම කරන ලද නීති නොමැත.*"    
         },
         "tagall": {
             "TAGALL_DESC": "කණ්ඩායමේ සිටින සියල්ලන් ටැග් කරයි.",
