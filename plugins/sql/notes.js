@@ -1,5 +1,5 @@
 /*
-# Copyright (C) 2020 MuhammedKpln. /  Copyright (C) 2021 Mr.joka
+# Copyright (C) 2021
 
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
