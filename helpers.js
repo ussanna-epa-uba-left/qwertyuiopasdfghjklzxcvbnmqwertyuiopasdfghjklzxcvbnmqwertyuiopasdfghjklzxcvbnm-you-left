@@ -22,6 +22,3 @@ module.exports = {
     infoMessage
 }
 
-
-/*BlackKingdoms whatsapp user bot public steble virsion 0.16.5 runing*/ /*(@adiwajshing/baileys)*/ /*whatsasena based*/
-/*powerd by BlackKingdoms creations/K.G LEGION CREW/AmdA/toxic whoman/kaviya tech/bad boys*/
