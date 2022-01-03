@@ -23,8 +23,8 @@ var l_dsc = ''
         l_dsc = 'Activates the private, public tool.'
         alr_on = 'Type is already private!'
         alr_off = 'Type is currently public!'
-        succ_on = 'Private Mode Successfully!'
-        succ_off = 'Public Mode Successfully!'
+        succ_on = 'Private Mode setted Successfully!'
+        succ_off = 'Public Mode setted Successfully!'
     }
 
     Asena.addCommand({pattern: 'type ?(.*)', fromMe: true,  deleteCommand: false,  desc: l_dsc, usage: '.type self or public', dontAddCommandList: true }, (async (message, match) => {
