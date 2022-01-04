@@ -1,13 +1,13 @@
 const Cyber = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
-const GM = "it sends good morning message"
-const GN = "it sends good night message"
+const GM = "it sends hoax message"
+const GN = "it sends hoax message"
 const Config = require('../config');
 
 
 
 if (Config.WORKTYPE == 'private') {
-Cyber.addCommand({pattern: 'hoak', fromMe: true, deleteCommand: true, desc: GM,}, (async (message, match) => {
+Cyber.addCommand({pattern: 'hoax', fromMe: true, deleteCommand: true, desc: GM,}, (async (message, match) => {
 
     var r_text = new Array ();
 
@@ -38,7 +38,7 @@ Cyber.addCommand({pattern: 'hoks', fromMe: true, deleteCommand: true, desc: GN,}
     
 
     if (Config.WORKTYPE == 'public') {
-        Cyber.addCommand({pattern: 'hoak', fromMe: false, deleteCommand: true, desc: GM,}, (async (message, match) => {
+        Cyber.addCommand({pattern: 'hoax', fromMe: false, deleteCommand: true, desc: GM,}, (async (message, match) => {
         
             var r_text = new Array ();
         
@@ -65,7 +65,7 @@ Cyber.addCommand({pattern: 'hoks', fromMe: true, deleteCommand: true, desc: GN,}
                     message.jid,(r_text[i]), MessageType.text);
             
                 }));    
-                Cyber.addCommand({pattern: 'hoak', fromMe: true, deleteCommand: true,dontAddCommandList: true }, (async (message, match) => {
+                Cyber.addCommand({pattern: 'hoax', fromMe: true, deleteCommand: true,dontAddCommandList: true }, (async (message, match) => {
         
                     var r_text = new Array ();
                 
