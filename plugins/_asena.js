@@ -1,5 +1,4 @@
 /* Copyright (C) 2021 NICO.
-
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
  
@@ -27,7 +26,7 @@ if (Config.WORKTYPE == 'private') {
         if (match[1] === '') {
             Asena.commands.map(
                 async (command) =>  {
-                    if (command.dontAddCommandList || command.pattern === undefined) return;
+                    if (command.dontAddCommandList || command.pattern === undefined) return;
                     try {
                         var match = command.pattern.toString().match(/(\W*)([A-Za-zğüşiöç1234567890]*)/);
                     } catch {
@@ -48,8 +47,9 @@ if (Config.WORKTYPE == 'private') {
 
                 }
             );
- 
-            await message.client.sendMessage(message.jid, fs.readFileSync("./media/IMG-20211216-WA0133.png"),'⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍\n' + ' ```᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ Menu```\n' + '⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎\n\n' + CMD_HELP, MessageType.text,{quoted: message.data}
+        
+            await message.client.sendMessage(
+                message.jid,'⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍\n' + ' ```᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ Menu```\n' + '⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎\n\n' + CMD_HELP, MessageType.text,{quoted: message.data}
             );    
         } else {
 
@@ -60,7 +60,7 @@ if (Config.WORKTYPE == 'private') {
             var CMD_HELP = '';
             Asena.commands.map(
                 async (command) =>  {
-                    if (command.dontAddCommandList || command.pattern === undefined) return;
+                    if (command.dontAddCommandList || command.pattern === undefined) return;
                     try {
                         var cmatch = command.pattern.toString().match(/(\W*)([A-Za-zğüşiöç1234567890]*)/);
                     } catch {
@@ -84,7 +84,8 @@ if (Config.WORKTYPE == 'private') {
                 }
             );
             if (CMD_HELP === '') CMD_HELP += Lang.NOT_FOUND;
-            await message.client.sendMessage(message.jid, fs.readFileSync("./media/IMG-20211216-WA0133.png"),'```᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ Menu ᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ```\n\n' + CMD_HELP, MessageType.text,{quoted: message.data}
+            await message.client.sendMessage(
+                message.jid,'```᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ Menu ᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ```\n\n' + CMD_HELP, MessageType.text,{quoted: message.data}
             );
         }
     }));
@@ -105,7 +106,7 @@ else if (Config.WORKTYPE == 'public') {
         if (match[1] === '') {
             Asena.commands.map(
                 async (command) =>  {
-                    if (command.dontAddCommandList || command.pattern === undefined) return;
+                    if (command.dontAddCommandList || command.pattern === undefined) return;
                     try {
                         var match = command.pattern.toString().match(/(\W*)([A-Za-zğüşiöç1234567890]*)/);
                     } catch {
@@ -127,7 +128,8 @@ else if (Config.WORKTYPE == 'public') {
                 }
             );
         
-            await message.client.sendMessage(message.jid, fs.readFileSync("./media/IMG-20211216-WA0133.png"),'🔱᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ PUBLIC🔱\n\n' + CMD_HELP, MessageType.text,{quoted: message.data}
+            await message.client.sendMessage(
+                message.jid,'🔱᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ PUBLIC🔱\n\n' + CMD_HELP, MessageType.text,{quoted: message.data}
             );    
         } else {
 
@@ -138,7 +140,7 @@ else if (Config.WORKTYPE == 'public') {
             var CMD_HELP = '';
             Asena.commands.map(
                 async (command) =>  {
-                    if (command.dontAddCommandList || command.pattern === undefined) return;
+                    if (command.dontAddCommandList || command.pattern === undefined) return;
                     try {
                         var cmatch = command.pattern.toString().match(/(\W*)([A-Za-zğüşiöç1234567890]*)/);
                     } catch {
@@ -162,9 +164,9 @@ else if (Config.WORKTYPE == 'public') {
                 }
             );
             if (CMD_HELP === '') CMD_HELP += Lang.NOT_FOUND;
-            await message.client.sendMessage(message.jid, fs.readFileSync("./media/IMG-20211216-WA0133.png"),'🔱᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ PUBLIC🔱\n\n' + CMD_HELP, MessageType.text,{quoted: message.data}
+            await message.client.sendMessage(
+                message.jid,'🔱᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ PUBLIC🔱\n\n' + CMD_HELP, MessageType.text,{quoted: message.data}
             );
         }
     }));
 }
-
