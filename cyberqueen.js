@@ -373,7 +373,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     '\n_මෙම දෝෂ logs ඔබගේ අංකය හෝ ප්‍රති පාර්ශ්වයේ අංකය අඩංගු විය හැකිය. කරුණාකර එය සමග සැලකිලිමත් වන්න!_' +
                                     '\n_උදව් සඳහා ඔබට අපගේ whatsapp support කණ්ඩායමට ලිවිය හැකිය._' +
                                     '\n_මෙම පණිවිඩය ඔබගේ අංකයට ගොස් තිබිය යුතුය (සුරකින ලද පණිවිඩ)_' +
-                                    '\nhttps://chat.whatsapp.com/Fhxz8Gya3dd6Sch2PoTG3K ඔබට එය මෙම group යොමු කළ හැකිය._\n\n' +
+                                    '\nhttps://chat.whatsapp.com/Gs1fv4cSjvACYoZ8UNhy1n ඔබට එය මෙම group යොමු කළ හැකිය._\n\n' +
                                     '*සිදු වූ දෝෂය:* ```' + error + '```\n\n'
                                     , });
                             } else {
@@ -382,7 +382,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     '\n_Message logs ඔබගේ අංකය හෝ ප්‍රති පාර්ශ්වයේ අංකය අඩංගු විය හැකිය. කරුණාකර එය සමග සැලකිලිමත් වන්න!_' +
                                     '\n_උදව් සඳහා ඔබට අපගේ whatsapp support කණ්ඩායමට ලිවිය හැකිය._' +
                                     '\n_(සුරකින ලද පණිවිඩ)_' +
-                                    '\n_ඔබේ bot සඳහා යම් උදව්වක් අවශ්‍ය නම්, https://chat.whatsapp.com/Fhxz8Gya3dd6Sch2PoTG3K වෙත පිවිසෙන්න...\n\n' +
+                                    '\n_ඔබේ bot සඳහා යම් උදව්වක් අවශ්‍ය නම්, https://chat.whatsapp.com/Gs1fv4cSjvACYoZ8UNhy1n වෙත පිවිසෙන්න...\n\n' +
                                     '*Report:* ```' + error + '```\n\n'
                                     , });
                             }
