@@ -17,7 +17,7 @@ const Lang = Language.getString('system_stats');
 
 
 
-Cyber.applyCMD({pattern: 'rules', fromMe: LOL,  deleteCommand: false, onlyGroup: true, desc: Lang.RULE_DESC}, (async (message, match) => {
+Cyber.addCommand({pattern: 'rules', fromMe: LOL,  deleteCommand: false, onlyGroup: true, desc: Lang.RULE_DESC}, (async (message, match) => {
 
     if (Config.RULES == 'default') {
             
