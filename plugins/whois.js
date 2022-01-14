@@ -1,6 +1,6 @@
 /* Codded by Phaticusthiccy
 re edited by farhan-dqz
-*/
+
 
 const Cyber = require('../events');
 const { MessageType, Mimetype, GroupSettingChange, MessageOptions } = require('@adiwajshing/baileys');
@@ -156,4 +156,4 @@ else if (CON.WORKTYPE == 'public') {
             );
         }
     });
-}
+}*/
