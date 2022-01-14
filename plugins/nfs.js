@@ -5,7 +5,9 @@ const Config = require('../config');
 const Language = require('../language');
 const Lang = Language.getString('admin');
 const mut = Language.getString('mute');
-const END = "Clear chat"
+const END = "Clear chat";
+const ARC = "Archive a chat";
+const UNARC = "Unarchive a chat"
 
 async function checkImAdmin(message, user = message.client.user.jid) {
     var grup = await message.client.groupMetadata(message.jid);
@@ -27,7 +29,7 @@ Cyber.addCommand({pattern: 'archive', fromMe: true, desc: ARC, dontAddCommandLis
     await message.client.modifyChat (message.jid, ChatModification.archive);
     await message.sendMessage('```Succesfull Archived```');
 }));
-Cyber.addCommand({pattern: 'unarchive', fromMe: true, desc: ARC, dontAddCommandList: true}, (async (message, match) => {
+Cyber.addCommand({pattern: 'unarchive', fromMe: true, desc: UNARC, dontAddCommandList: true}, (async (message, match) => {
 
     await message.sendMessage('```UnArchive Chat!..```');
     await message.client.modifyChat (message.jid, ChatModification.unarchive);
