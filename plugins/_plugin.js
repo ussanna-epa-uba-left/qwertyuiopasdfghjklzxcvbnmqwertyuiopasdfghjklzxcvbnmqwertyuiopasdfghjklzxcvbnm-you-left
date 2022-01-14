@@ -1,9 +1,7 @@
-/* Copyright (C) 2020 BlackKingdoms.
+/* Copyright (C) 2021
 
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
-
-BlackKingdoms - Adeesha
 */
 
 const Asena = require('../events');
@@ -26,7 +24,7 @@ const heroku = new Heroku({
 let baseURI = '/apps/' + Config.HEROKU.APP_NAME;
 
 Asena.addCommand({pattern: 'install ?(.*)', fromMe: true, desc: Lang.INSTALL_DESC}, (async (message, match) => {
-    if (match[1] === '') return await message.sendMessage(Lang.NEED_URL + '.install https://gist.github.com/SLTechnicalTips/ccba38b81b3bf26eaf2b0e640abaa139')
+    if (match[1] === '') return await message.sendMessage(Lang.NEED_URL + '.install https://gist.github.com/SLTechnicalTips/ccba38b81b3bf26eaf2b0e640abaa1399')
     try {
         var url = new URL(match[1]);
     } catch {
