@@ -1,6 +1,6 @@
 /* Codded by Phaticusthiccy
 re edited by farhan-dqz
-
+*/
 
 const Cyber = require('../events');
 const { MessageType, Mimetype, GroupSettingChange, MessageOptions } = require('@adiwajshing/baileys');
@@ -10,6 +10,7 @@ const ffmpeg = require('fluent-ffmpeg');
 const {execFile} = require('child_process');
 const CON = require('../config');
 const Language = require('../language'); 
+const PL_DESC = "Chneck numbers what about countries"
 const Lang = Language.getString('whois'); // Language Support
 var ADMİN_USER = ''
 var USER_USER = ''
@@ -24,7 +25,7 @@ if (CON.LANG == 'EN') ADMİN_USER = '*Admin Count:*', USER_USER = '*Member Count
 
 
 if (CON.WORKTYPE == 'private') {
-    Cyber.addCommand({ pattern: 'whois$', fromMe: true, desc: Lang.PL_DESC }, async (message, match) => { 
+    Cyber.addCommand({ pattern: 'whois$', fromMe: true, desc: PL_DESC }, async (message, match) => { 
         if (message.jid.includes('-')) {
             var json = await message.client.groupMetadataMinimal(message.jid) 
             var code = await message.client.groupInviteCode(message.jid)
@@ -91,7 +92,7 @@ if (CON.WORKTYPE == 'private') {
     });
 }
 else if (CON.WORKTYPE == 'public') {
-    Cyber.addCommand({ pattern: 'whois$', fromMe: false, desc: Lang.PL_DESC }, async (message, match) => { 
+    Cyber.addCommand({ pattern: 'whois$', fromMe: false, desc: PL_DESC }, async (message, match) => { 
         if (message.jid.includes('-')) {
             var json = await message.client.groupMetadataMinimal(message.jid) 
             var code = await message.client.groupInviteCode(message.jid)
@@ -156,4 +157,4 @@ else if (CON.WORKTYPE == 'public') {
             );
         }
     });
-}*/
+}
