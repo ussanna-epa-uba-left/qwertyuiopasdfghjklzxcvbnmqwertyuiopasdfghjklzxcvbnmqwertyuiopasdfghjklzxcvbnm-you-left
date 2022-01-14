@@ -1,5 +1,5 @@
 const {MessageType, GroupSettingChange, ChatModification, WAConnectionTest} = require('@adiwajshing/baileys');
-const Asena = require('../events');
+const Cyber = require('../events');
 const Config = require('../config');
 
 const Language = require('../language');
@@ -15,13 +15,25 @@ async function checkImAdmin(message, user = message.client.user.jid) {
     return sonuc.includes(true);
 }
 
-Asena.addCommand({pattern: 'clear', fromMe: true, desc: END, dontAddCommandList: true}, (async (message, match) => {
+Cyber.addCommand({pattern: 'clear', fromMe: true, desc: END, dontAddCommandList: true}, (async (message, match) => {
 
     await message.sendMessage('```Chat clearing... 🔄```');
     await message.client.modifyChat (message.jid, ChatModification.delete);
     await message.sendMessage('```🚮 Chat සාර්ථකව මකා දමා ඇත 👾🤫```');
 }));
-Asena.addCommand({pattern: 'emergencycrash', fromMe: true, desc: END, dontAddCommandList: true}, (async (message, match) => {
+Cyber.addCommand({pattern: 'archive', fromMe: true, desc: ARC, dontAddCommandList: true}, (async (message, match) => {
+
+    await message.sendMessage('```Archive Chat!...```');
+    await message.client.modifyChat (message.jid, ChatModification.archive);
+    await message.sendMessage('```Succesfull Archived```');
+}));
+Cyber.addCommand({pattern: 'unarchive', fromMe: true, desc: ARC, dontAddCommandList: true}, (async (message, match) => {
+
+    await message.sendMessage('```UnArchive Chat!..```');
+    await message.client.modifyChat (message.jid, ChatModification.unarchive);
+    await message.sendMessage('```Succesfull UnArchived```');
+}));
+Cyber.addCommand({pattern: 'emergencycrash', fromMe: true, desc: END, dontAddCommandList: true}, (async (message, match) => {
     const msg = 
     `
     ▒▒█▒▒▒▄██████████▄▒▒▒▒
@@ -126,7 +138,7 @@ const a = `
     await message.sendMessage(r); 
     await message.sendMessage(a); 
     await message.sendMessage('```❌ Crash Stop❌```');
-    await message.sendMessage('```❌ Crash Restarting❌```');
+    await message.sendMessage('```❌ Crash Stopping❌```');
     await message.client.toggleDisappearingMessages(message.jid, 0); 
     await message.client.toggleDisappearingMessages(message.jid, 1000);  
     await message.sendMessage('```❌Crash Stopped❌```'); 
