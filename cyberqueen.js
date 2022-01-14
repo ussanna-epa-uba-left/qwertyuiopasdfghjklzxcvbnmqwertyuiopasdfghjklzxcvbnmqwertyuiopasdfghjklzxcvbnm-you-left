@@ -141,7 +141,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
         });
 
         console.log(
-            chalk.green.bold('✅ Plugins Installed Now You can use CyberQueen!')
+            chalk.green.bold('᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ - Public Edition 💃♥️')
         );
         await new Promise(r => setTimeout(r, 1100));
 
