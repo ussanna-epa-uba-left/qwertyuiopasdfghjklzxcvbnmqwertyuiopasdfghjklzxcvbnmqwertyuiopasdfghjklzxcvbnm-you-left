@@ -204,7 +204,7 @@
             "ALIVE_DESC": "Check bot online or not",
             "SYSD_DESC": "System properties.",
             "BOT_V": "Check version of bot.",
-            "version": "3.0.4 - BETA Edition" 
+            "version": "3.0.4 - Public Edition" 
         },
         "tagall": {
             "TAGALL_DESC": "කණ්ඩායමේ සිටින සියල්ලන් ටැග් කරයි.",
