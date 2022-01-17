@@ -15,7 +15,7 @@ const os = require('os');
 
 let cqwork = Config.WORKTYPE == 'public' ? false: true
 
-Cq.addCommand({ pattern: 'ol paper', fromMe: cqwork, desc: 'down;load passpepr'
+Cq.addCommand({ pattern: 'dinuka', fromMe: cqwork, desc: 'down;load passpepr'
 }, (async (message, match) => {
         // send a list main  subject
        const rows15 =[{title: ' 🗃️2015  ️ ', description:    "《《====``` ", rowId: "rowid1"},
