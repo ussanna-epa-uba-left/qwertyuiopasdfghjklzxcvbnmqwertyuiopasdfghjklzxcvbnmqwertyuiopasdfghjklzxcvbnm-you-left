@@ -36,7 +36,7 @@ Asena.addCommand({pattern: 'version', fromMe: true, deleteCommand: true, desc: M
 
     var r_text = new Array ();
 
-    r_text[1] = "᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ Version 🧬\n\nInstalled version 🔗:\n3.0.4v - Public Edition\n\nCheck official github : https://github.com/SLTechnicalTips/CyberQueen";
+    r_text[1] = "᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ Version 🧬\n\nInstalled version 🔗:\n3.8.4v - Public Edition\n\nCheck official github : https://github.com/SLTechnicalTips/CyberQueen";
 
     var i = Math.floor(2*Math.random())
 
@@ -50,7 +50,7 @@ Asena.addCommand({pattern: 'cqversion', fromMe: true, deleteCommand: true, desc:
 
         var r_text = new Array ();
     
-        r_text[1] = "᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ Version 🧬\n\nInstalled version 🔗:\n3.0.4v - Public Edition\n\nCheck official github : https://github.com/SLTechnicalTips/CyberQueen";
+        r_text[1] = "᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ Version 🧬\n\nInstalled version 🔗:\n3.8.4v - Public Edition\n\nCheck official github : https://github.com/SLTechnicalTips/CyberQueen";
       
     
         var i = Math.floor(2*Math.random())
@@ -68,7 +68,7 @@ Asena.addCommand({pattern: 'cqversion', fromMe: true, deleteCommand: true, desc:
         
             var r_text = new Array ();
         
-            r_text[1] = "᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ Version 🧬\n\nInstalled version 🔗:\n3.0.4v - Public Edition\n\nCheck official github : https://github.com/SLTechnicalTips/CyberQueen";
+            r_text[1] = "᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ Version 🧬\n\nInstalled version 🔗:\n3.8.4v - Public Edition\n\nCheck official github : https://github.com/SLTechnicalTips/CyberQueen";
         
             var i = Math.floor(2*Math.random())
         
@@ -82,7 +82,7 @@ Asena.addCommand({pattern: 'cqversion', fromMe: true, deleteCommand: true, desc:
         
                 var r_text = new Array ();
             
-                r_text[1] = "᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ Version 🧬\n\nInstalled version 🔗:\n3.0.4v - Public Edition\n\nCheck official github : https://github.com/SLTechnicalTips/CyberQueen";
+                r_text[1] = "᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ Version 🧬\n\nInstalled version 🔗:\n3.8.4v - Public Edition\n\nCheck official github : https://github.com/SLTechnicalTips/CyberQueen";
             
                 var i = Math.floor(2*Math.random())
             
@@ -94,7 +94,7 @@ Asena.addCommand({pattern: 'cqversion', fromMe: true, deleteCommand: true, desc:
         
                     var r_text = new Array ();
                 
-                    r_text[1] = "᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ Version 🧬\n\nInstalled version 🔗:\n3.0.4v - Public Edition\n\nCheck official github : https://github.com/SLTechnicalTips/CyberQueen";
+                    r_text[1] = "᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ Version 🧬\n\nInstalled version 🔗:\n3.8.4v - Public Edition\n\nCheck official github : https://github.com/SLTechnicalTips/CyberQueen";
                     
                 
                     var i = Math.floor(2*Math.random())
@@ -109,7 +109,7 @@ Asena.addCommand({pattern: 'cqversion', fromMe: true, deleteCommand: true, desc:
                 
                         var r_text = new Array ();
                     
-                        r_text[1] = "᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ Version 🧬\n\nInstalled version 🔗:\n3.0.4v - Public Edition\n\nCheck official github : https://github.com/SLTechnicalTips/CyberQueen";
+                        r_text[1] = "᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ Version 🧬\n\nInstalled version 🔗:\n3.8.4v - Public Edition\n\nCheck official github : https://github.com/SLTechnicalTips/CyberQueen";
                     
                         var i = Math.floor(2*Math.random())
                     
