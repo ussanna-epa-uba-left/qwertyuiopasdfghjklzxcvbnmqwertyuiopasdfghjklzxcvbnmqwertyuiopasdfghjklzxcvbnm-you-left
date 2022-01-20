@@ -4,7 +4,7 @@ const Config = require('../config');
 let workt = Config.WORKTYPE == 'public' ? false : true
 const fs = require('fs');
 const DESC = 'Alive Sticker Test#1'
-
+ 
 if (Config.ALIVE_STIC == 'true') {
 
 Mizuki.addCommand({pattern: 'alive ?(.*)', fromMe: workt, desc: DESC, dontAddCommandList: true}, (async (message, match) => {
