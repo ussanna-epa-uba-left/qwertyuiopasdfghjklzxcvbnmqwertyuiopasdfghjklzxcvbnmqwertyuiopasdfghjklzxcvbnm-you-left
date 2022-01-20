@@ -1,6 +1,6 @@
 /* Copyright (C) 2021 Vai838.
 Licensed under the  GPL-3.0 License;
-you may not use this file except in compliance with the License.*/
+you may not use this file except in compliance with the License.
 
 
 const Asena = require('../events');
@@ -24,3 +24,4 @@ Asena.addCommand({pattern: 'bot ?(.*)', fromMe: false, desc: BOT_DESC}, async (m
 		return await message.client.sendMessage(message.jid, NOT_FOUNDAC, MessageType.text);
 	}
 });
+*/
