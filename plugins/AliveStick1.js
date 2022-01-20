@@ -5,10 +5,7 @@ let workt = Config.WORKTYPE == 'public' ? false : true
 const fs = require('fs');
 const DESC = 'Alive Sticker Test#1'
 
-var alive_var = ''
-async function antlch() {
-    await heroku.get(baseURI + '/config-vars').then(async (vars) => {
-        alive_var = vars.ALIVE_STIC
+if (Config.ALIVE_STIC == 'true') {
 
 Mizuki.addCommand({pattern: 'alive ?(.*)', fromMe: workt, desc: DESC, dontAddCommandList: true}, (async (message, match) => {
   
@@ -1196,4 +1193,4 @@ function _0x42739a(_0x4c7cd2) {
 }
   
   
-}))
+}))}
