@@ -1,4 +1,5 @@
-/*Copyright (C) 2021 Black Amda  /  Copyright (C) ʙʟᴀᴄᴋᴋɪɴɢᴅᴏᴍ*/
+/*Copyright (C) 2021 Black Amda  /  Copyright (C) ᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ
+*/
 
 
 const Asena = require('../events');
