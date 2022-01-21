@@ -444,7 +444,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
         await conn.connect();
     } catch {
         if (!nodb) {
-            console.log(chalk.red.bold('ඔබගේ පැරණි අනුවාද මාලාව නැවුම් වෙමින් පවතී 😈...'))
+            console.log(chalk.red.bold('ඔබගේ පැරණි අනුවාද මාලාව නැවුම් වෙමින් පවතී...'))
             conn.loadAuthInfo(Session.deCrypt(config.SESSION)); 
             try {
                 await conn.connect();
