@@ -3,14 +3,12 @@
 CyberQueen
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
-
 */
 
 const { Sequelize } = require('sequelize');
 const fs = require('fs');
 if (fs.existsSync('config.env')) require('dotenv').config({ path: './config.env' });
 
-// Özel Fonksiyonlarımız
 function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
