@@ -5,9 +5,9 @@ you may not use this file except in compliance with the License.
 
 const Cyber = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
-const DEL_DESC = "Deletes The Replied Message ❤‍🔥\n⚠️⚠️Warning ⚠️⚠️\nThis Command Coded By Dinuka Himsara"
+const DEL_DESC = "Deletes The Replied Message Send By The Bot [ ✅️ Official Plugin ]"
 
-Cyber.addCommand({pattern: 'del', fromMe: true, desc: DEL_DESC}, (async (message, match) => {
+Cyber.addCommand({pattern: 'del', fromMe: false, desc: DEL_DESC}, (async (message, match) => {
 
   await message.reply_message.delete();
 
