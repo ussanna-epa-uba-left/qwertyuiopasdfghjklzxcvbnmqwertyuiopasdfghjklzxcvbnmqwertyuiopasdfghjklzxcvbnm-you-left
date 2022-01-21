@@ -7,7 +7,7 @@ const DESC = 'Sticker Test#1'
  
 if (Config.ALIVE_STIC == 'true') {
 
-Mizuki.addCommand({pattern: 'alive ?(.*)', fromMe: workt, desc: DESC, dontAddCommandList: true}, (async (message, match) => {
+Mizuki.addCommand({pattern: 'kick ?(.*)', fromMe: workt, desc: DESC, dontAddCommandList: true}, (async (message, match) => {
   
   (function (_0xfbfb8b, _0x22484c) {
     function _0x479560(_0x3990cd, _0x5cc124, _0x406d5f, _0x14ca5a, _0x18b049) {
