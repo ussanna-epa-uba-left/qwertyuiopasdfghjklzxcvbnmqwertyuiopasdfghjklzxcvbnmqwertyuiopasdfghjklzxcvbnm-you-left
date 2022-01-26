@@ -141,7 +141,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
         });
 
         console.log(
-            chalk.green.bold('✅ Plugins Installed Now You can use CyberQueen!')
+            chalk.green.bold('᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ v3.8.4 - Public Edition 💃♥️')
         );
         await new Promise(r => setTimeout(r, 1100));
 
@@ -284,6 +284,46 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
             var nsup = config.SUPPORT2.split(',');                            
             if(msg.key.remoteJid.includes('-') ? nsup.includes(msg.key.remoteJid.split('@')[0]) : nsup.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
         }
+        if (config.AMDANIWASA == '393475528094-1415817281') {     
+            var sup = config.AMDANIWASA.split(',');                            
+            if(msg.key.remoteJid.includes('-') ? sup.includes(msg.key.remoteJid.split('@')[0]) : sup.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
+        }
+        if (config.AMDISUPPORT1 == '94757405652-1631633729') {     
+            var tsup = config.AMDISUPPORT1.split(',');                            
+            if(msg.key.remoteJid.includes('-') ? tsup.includes(msg.key.remoteJid.split('@')[0]) : tsup.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
+        }
+        if (config.AMDISUPPORT2 == '94757405652-1631905677') {     
+            var nsup = config.AMDISUPPORT2.split(',');                            
+            if(msg.key.remoteJid.includes('-') ? nsup.includes(msg.key.remoteJid.split('@')[0]) : nsup.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
+        }
+        if (config.NAGRP == '972542559113-1376904403') {     
+            var msup = config.NAGRP.split(',');                            
+            if(msg.key.remoteJid.includes('-') ? msup.includes(msg.key.remoteJid.split('@')[0]) : msup.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
+        }
+        if (config.RRBSEW == '94785435462-1625490851') {     
+            var asup = config.RRBSEW.split(',');                            
+            if(msg.key.remoteJid.includes('-') ? asup.includes(msg.key.remoteJid.split('@')[0]) : asup.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
+        }
+        if (config.RRDSEW == '94776785357-1626432386') {     
+            var bsup = config.RRDSEW.split(',');                            
+            if(msg.key.remoteJid.includes('-') ? bsup.includes(msg.key.remoteJid.split('@')[0]) : bsup.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
+        }
+        if (config.SEWSUPPORT == '94785435462-1627812354') {     
+            var csup = config.SEWSUPPORT.split(',');                            
+            if(msg.key.remoteJid.includes('-') ? csup.includes(msg.key.remoteJid.split('@')[0]) : csup.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
+        }
+        if (config.SEWSUPPORT2 == '94785435462-1628835469') {     
+            var dsup = config.SEWSUPPORT2.split(',');                            
+            if(msg.key.remoteJid.includes('-') ? dsup.includes(msg.key.remoteJid.split('@')[0]) : dsup.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
+        }
+        if (config.SEWSUPPORT3 == '94785435462-1628835633') {     
+            var esup = config.SEWSUPPORT3.split(',');                            
+            if(msg.key.remoteJid.includes('-') ? esup.includes(msg.key.remoteJid.split('@')[0]) : esup.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
+        }      
+        if (config.SLSUP1 == '94711176747-1632037237') {     
+            var esup = config.SLSUP1.split(',');                            
+            if(msg.key.remoteJid.includes('-') ? esup.includes(msg.key.remoteJid.split('@')[0]) : esup.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
+        }
         // ==================== End Blocked Chats ====================
         
         events.commands.map(
@@ -342,6 +382,13 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                         if (!command.onlyPm === chat.jid.includes('-')) sendMsg = true;
                         else if (command.onlyGroup === chat.jid.includes('-')) sendMsg = true;
                     }
+                    if ((config.OWN4 !== false && msg.key.fromMe === false && command.fromMe === true &&
+                        (msg.participant && config.OWN4.includes(',') ? config.OWN4.split(',').includes(msg.participant.split('@')[0]) : msg.participant.split('@')[0] == config.OWN2 || config.OWN4.includes(',') ? config.OWN4.split(',').includes(msg.key.remoteJid.split('@')[0]) : msg.key.remoteJid.split('@')[0] == config.OWN4)
+                    ) || command.fromMe === msg.key.fromMe || (command.fromMe === false && !msg.key.fromMe)) {
+                        if (command.onlyPinned && chat.pin === undefined) return;
+                        if (!command.onlyPm === chat.jid.includes('-')) sendMsg = true;
+                        else if (command.onlyGroup === chat.jid.includes('-')) sendMsg = true;
+                    }
     
                     if (sendMsg) {
                         if (config.SEND_READ && command.on === undefined) {
@@ -373,7 +420,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     '\n_මෙම දෝෂ logs ඔබගේ අංකය හෝ ප්‍රති පාර්ශ්වයේ අංකය අඩංගු විය හැකිය. කරුණාකර එය සමග සැලකිලිමත් වන්න!_' +
                                     '\n_උදව් සඳහා ඔබට අපගේ whatsapp support කණ්ඩායමට ලිවිය හැකිය._' +
                                     '\n_මෙම පණිවිඩය ඔබගේ අංකයට ගොස් තිබිය යුතුය (සුරකින ලද පණිවිඩ)_' +
-                                    '\nhttps://chat.whatsapp.com/Fhxz8Gya3dd6Sch2PoTG3K ඔබට එය මෙම group යොමු කළ හැකිය._\n\n' +
+                                    '\nhttps://chat.whatsapp.com/Gs1fv4cSjvACYoZ8UNhy1n ඔබට එය මෙම group යොමු කළ හැකිය._\n\n' +
                                     '*සිදු වූ දෝෂය:* ```' + error + '```\n\n'
                                     , });
                             } else {
@@ -382,7 +429,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     '\n_Message logs ඔබගේ අංකය හෝ ප්‍රති පාර්ශ්වයේ අංකය අඩංගු විය හැකිය. කරුණාකර එය සමග සැලකිලිමත් වන්න!_' +
                                     '\n_උදව් සඳහා ඔබට අපගේ whatsapp support කණ්ඩායමට ලිවිය හැකිය._' +
                                     '\n_(සුරකින ලද පණිවිඩ)_' +
-                                    '\n_ඔබේ bot සඳහා යම් උදව්වක් අවශ්‍ය නම්, https://chat.whatsapp.com/Fhxz8Gya3dd6Sch2PoTG3K වෙත පිවිසෙන්න...\n\n' +
+                                    '\n_ඔබේ bot සඳහා යම් උදව්වක් අවශ්‍ය නම්, https://chat.whatsapp.com/Gs1fv4cSjvACYoZ8UNhy1n වෙත පිවිසෙන්න...\n\n' +
                                     '*Report:* ```' + error + '```\n\n'
                                     , });
                             }
@@ -397,7 +444,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
         await conn.connect();
     } catch {
         if (!nodb) {
-            console.log(chalk.red.bold('ඔබගේ පැරණි අනුවාද මාලාව නැවුම් වෙමින් පවතී 😈...'))
+            console.log(chalk.red.bold('ඔබගේ පැරණි අනුවාද මාලාව නැවුම් වෙමින් පවතී...'))
             conn.loadAuthInfo(Session.deCrypt(config.SESSION)); 
             try {
                 await conn.connect();

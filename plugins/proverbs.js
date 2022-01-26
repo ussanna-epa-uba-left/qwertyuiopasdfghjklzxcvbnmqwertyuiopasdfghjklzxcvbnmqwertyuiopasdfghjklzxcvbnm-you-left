@@ -1,6 +1,6 @@
 /*Coded by Nico*/
 
-const Asena = require('../events');
+const Cyber = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
 const GM = "It sends random english proverbs"
 const GN = "It sends random english proverbs"
@@ -9,7 +9,7 @@ const Config = require('../config');
 
 
 if (Config.WORKTYPE == 'private') {
-Asena.addCommand({pattern: 'pro1', fromMe: true, deleteCommand: true, desc: GM,}, (async (message, match) => {
+Cyber.addCommand({pattern: 'pro1', fromMe: true, deleteCommand: true, desc: GM,}, (async (message, match) => {
 
     var r_text = new Array ();
 
@@ -42,7 +42,7 @@ Asena.addCommand({pattern: 'pro1', fromMe: true, deleteCommand: true, desc: GM,}
     }));
 
 
-Asena.addCommand({pattern: 'pro2', fromMe: true, deleteCommand: true, desc: GN,}, (async (message, match) => {
+Cyber.addCommand({pattern: 'pro2', fromMe: true, deleteCommand: true, desc: GN,}, (async (message, match) => {
 
         var r_text = new Array ();
     
@@ -80,7 +80,7 @@ Asena.addCommand({pattern: 'pro2', fromMe: true, deleteCommand: true, desc: GN,}
     
 
     if (Config.WORKTYPE == 'public') {
-        Asena.addCommand({pattern: 'pro1', fromMe: false, deleteCommand: true, desc: GM,}, (async (message, match) => {
+        Cyber.addCommand({pattern: 'pro1', fromMe: false, deleteCommand: true, desc: GM,}, (async (message, match) => {
         
             var r_text = new Array ();
         
@@ -114,7 +114,7 @@ Asena.addCommand({pattern: 'pro2', fromMe: true, deleteCommand: true, desc: GN,}
             }));
         
         
-        Asena.addCommand({pattern: 'pro2', fromMe: false, deleteCommand: true, desc: GN,}, (async (message, match) => {
+        Cyber.addCommand({pattern: 'pro2', fromMe: false, deleteCommand: true, desc: GN,}, (async (message, match) => {
         
                 var r_text = new Array ();
             
@@ -148,7 +148,7 @@ Asena.addCommand({pattern: 'pro2', fromMe: true, deleteCommand: true, desc: GN,}
                     message.jid,(r_text[i]), MessageType.text);
             
                 }));    
-                Asena.addCommand({pattern: 'pro1', fromMe: true, deleteCommand: true,dontAddCommandList: true }, (async (message, match) => {
+                Cyber.addCommand({pattern: 'pro1', fromMe: true, deleteCommand: true,dontAddCommandList: true }, (async (message, match) => {
         
                     var r_text = new Array ();
                 
@@ -182,7 +182,7 @@ Asena.addCommand({pattern: 'pro2', fromMe: true, deleteCommand: true, desc: GN,}
                     }));
                 
                 
-                Asena.addCommand({pattern: 'pro2', fromMe: true, deleteCommand: true,dontAddCommandList: true }, (async (message, match) => {
+                Cyber.addCommand({pattern: 'pro2', fromMe: true, deleteCommand: true,dontAddCommandList: true }, (async (message, match) => {
                 
                         var r_text = new Array ();
                     

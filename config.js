@@ -1,15 +1,14 @@
 /* Copyright (C) 2021. 
+
 CyberQueen
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
-
 */
 
 const { Sequelize } = require('sequelize');
 const fs = require('fs');
 if (fs.existsSync('config.env')) require('dotenv').config({ path: './config.env' });
 
-// Özel Fonksiyonlarımız
 function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
@@ -18,7 +17,7 @@ DATABASE_URL = process.env.DATABASE_URL === undefined ? './whatsasena.db' : proc
 DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBUG);
 
 module.exports = {
-    VERSION: 'v3.0.4 Beta Edition',
+    VERSION: 'v3.8.4 Public Edition',
     SESSION: process.env._CYBER_SESSION === undefined ? '' : process.env._CYBER_SESSION,
     ANTILINK: process.env.ANTI_LINK === undefined ? 'true' : process.env.ANTI_LINK,
     INBO: process.env.INBO_BLOCK === undefined ? 'false' : process.env.INBO_BLOCK,
@@ -42,7 +41,11 @@ module.exports = {
     SEND_READ: process.env.SEND_READ === undefined ? false : convertToBool(process.env.SEND_READ),
     ANTIGRP_LINK: process.env.ANTIGRP_LINK === undefined ? 'false' : process.env.ANTIGRP_LINK,
     RULES: process.env.RULES === undefined ? 'default' : process.env.RULES,
-    RULES_LOGO: process.env.RULES_LOGO === undefined ? '᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ' : process.env.RULES_LOGO,
+    OWNER: process.env.OWNER === undefined ? 'default' : process.env.OWNER,
+    DM_BLOCK: process.env.DM_BLOCK === undefined ? 'false' : process.env.DM_BLOCK,
+    ALIVE_STIC: process.env.ALIVE_STIC === undefined ? 'true' : process.env.ALIVE_STIC,
+    ADDMSG: process.env.ADD_MESSAGE === undefined ? 'default' : process.env.ADD_MESSAGE,
+    RULES_LOGO: process.env.RULES_LOGO === undefined ? 'https://i.ibb.co/J3FK9zw/image.png' : process.env.RULES_LOGO,
     BRANCH: 'main',
     HEROKU: {
         HEROKU: process.env.HEROKU === undefined ? false : convertToBool(process.env.HEROKU),
@@ -57,9 +60,20 @@ module.exports = {
     OWN: process.env.OWN === undefined ? '94752279625,0' : process.env.OWN,
     OWN2: process.env.OWN2 === undefined ? '94761209144,0' : process.env.OWN2,
     OWN3: process.env.OWN3 === undefined ? '94770029091,0' : process.env.OWN3,
+    OWN4: process.env.OWN4 === undefined ? '94761219834,0' : process.env.OWN4, 
     DEBUG: DEBUG,
     COFFEEHOUSE_API_KEY: process.env.COFFEEHOUSE_API_KEY === undefined ? false : process.env.COFFEEHOUSE_API_KEY,
     WITAI_API: "TEYMELA6DMC4XB5YM3SPTTQWUUIBKURG",
     SUPPORT1: "94784621232-1635496328",
-    SUPPORT2: "94711176745"
+    SUPPORT2: "94711176745",
+    AMDANIWASA: "393475528094-1415817281",
+    AMDISUPPORT1: "94757405652-1631633729",
+    AMDISUPPORT2: "94757405652-1631905677",
+    NAGRP: "972542559113-1376904403",
+    RRBSEW: "94785435462-1625490851",
+    RRDSEW: "94776785357-1626432386",
+    RRESEW: "94776785357-1626521320",
+    SEWSUPPORT: "94785435462-1627812354",
+    SEWSUPPORT2: "94785435462-1628835469",
+    SEWSUPPORT3: "94785435462-1628835633"
 }; 

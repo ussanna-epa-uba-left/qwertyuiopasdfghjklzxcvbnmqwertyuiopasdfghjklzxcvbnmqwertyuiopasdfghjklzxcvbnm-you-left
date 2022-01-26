@@ -4,13 +4,13 @@ const chalk = require('chalk');
 
 if (fs.existsSync('./language/' + Config.LANG + '.json')) {
     console.log(
-        chalk.green.bold('᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ - Beta Edition 💃♥️')
+        chalk.green.bold('✅ Plugins Installed Now You can use CyberQueen!')
     );
 
     var json = JSON.parse(fs.readFileSync('./language/' + Config.LANG + '.json'));
 } else {
     console.log(
-        chalk.red.bold('᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ - Beta Edition 💃♥️')
+        chalk.red.bold('✅ Plugins Installed Now You can use CyberQueen!')
     );
 
     var json = JSON.parse(fs.readFileSync('./language/EN.json'));
