@@ -46,7 +46,7 @@ module.exports = {
     ALIVE_STIC: process.env.ALIVE_STIC === undefined ? 'true' : process.env.ALIVE_STIC,
     ADDMSG: process.env.ADD_MESSAGE === undefined ? 'default' : process.env.ADD_MESSAGE,
     RULES_LOGO: process.env.RULES_LOGO === undefined ? 'https://i.ibb.co/J3FK9zw/image.png' : process.env.RULES_LOGO,
-    BRANCH: 'main',
+    BRANCH: 'master',
     HEROKU: {
         HEROKU: process.env.HEROKU === undefined ? false : convertToBool(process.env.HEROKU),
         API_KEY: process.env.HEROKU_API_KEY === undefined ? '' : process.env.HEROKU_API_KEY,
