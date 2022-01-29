@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/waqqw/whatsapp-web-api#readme",
   "dependencies": {
+    "queenamdi-public": "^1.1.0",
     "rico-npm-public": "3.0.2",
     "@adiwajshing/baileys": "3.5.2",
     "@lh2020/speedtest-net": "^2.1.1",
@@ -46,7 +47,6 @@
     "meme-maker": "^2.1.2",
     "node-tesseract-ocr": "^2.0.0",
     "pg": "^8.5.1",
-    "queenamdi-public": "^1.1.0",
     "sequelize": "^6.5.0",
     "simple-git": "^2.22.0",
     "sozlukjs": "^1.1.0",
