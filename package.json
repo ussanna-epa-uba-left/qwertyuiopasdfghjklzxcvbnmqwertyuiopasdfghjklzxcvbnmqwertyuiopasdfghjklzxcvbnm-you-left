@@ -2,7 +2,7 @@
   "name": "CyberQueen",
   "version": "3.8.4",
   "description": "CyberQueen - A Whatsapp userbot. ",
-  "main": "./CyberQueen/CyberQueen/cyberqueen.js",
+  "main": "./CyberQueen/cyberqueen.js",
   "scripts": {
     "start": "supervisor -s cyberqueen.js"
   },
