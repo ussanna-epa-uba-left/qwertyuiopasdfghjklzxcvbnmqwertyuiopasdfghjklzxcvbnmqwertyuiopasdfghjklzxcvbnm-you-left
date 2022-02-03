@@ -58,8 +58,9 @@ Asena.addCommand({pattern: 'install ?(.*)', fromMe: true, desc: Lang.INSTALL_DES
 
         await Db.installPlugin(url, plugin_name);
         await message.client.sendMessage(message.jid, Lang.INSTALLED, MessageType.text);
+    } else {
+        return await amdiMSG.client.sendMessage(amdiMSG.jid, '❌ Unofficial plugin detected!',MessageType.text, {quoted: amdiMSG.data});
     }
-      return await message.client.sendMessage(message.jid, '❌ Unofficial plugin detected!',MessageType.text, {quoted: message.data});
 }));
 
 Asena.addCommand({pattern: 'plugin', fromMe: true, desc: Lang.PLUGIN_DESC}, (async (message, match) => {
