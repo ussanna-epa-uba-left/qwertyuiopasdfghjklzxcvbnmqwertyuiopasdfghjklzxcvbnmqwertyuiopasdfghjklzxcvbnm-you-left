@@ -1,4 +1,4 @@
-
+/*
 
 const Cq = require('../events');
 const {
@@ -57,4 +57,4 @@ Cq.addCommand({ pattern: 'dinuka', fromMe: cqwork, desc: 'down;load passpepr'
 
         await message.client.sendMessage(message.jid, button, MessageType.listMessage)
 
-    }));
+    }));*/
