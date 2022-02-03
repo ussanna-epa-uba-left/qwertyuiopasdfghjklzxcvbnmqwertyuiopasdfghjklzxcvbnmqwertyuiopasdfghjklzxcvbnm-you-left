@@ -6,7 +6,7 @@ const {
     GroupSettingChange,
     Mimetype,
     MessageOptions
-} = require('@adiwajshing/baileys');
+} = require('@blackamda/queenamdi-web-api');
 const fs = require('fs');
 const Config = require('../config')
 const axios = require('axios')
