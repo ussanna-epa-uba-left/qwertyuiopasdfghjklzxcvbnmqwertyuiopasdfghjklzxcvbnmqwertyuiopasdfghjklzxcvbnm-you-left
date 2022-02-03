@@ -1,7 +1,9 @@
 /* Copyright (C) 2021
-
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
+█▀█ █▀▀█ █▀█ █▀█ 
+─▄▀ █▄▀█ ─▄▀ ─▄▀ 
+█▄▄ █▄▄█ █▄▄ █▄▄
 */
 
 const Asena = require('../events');
@@ -30,7 +32,7 @@ Asena.addCommand({pattern: 'install ?(.*)', fromMe: true, desc: Lang.INSTALL_DES
     } catch {
         return await message.sendMessage(Lang.INVALID_URL);
     }
-  if (match[1].includes('waqqw') || match[1].includes('SLTechnicalTips') || match[1].includes('NicoNicolk')) {
+    
     if (url.host === 'gist.github.com') {
         url.host = 'gist.githubusercontent.com';
         url = url.toString() + '/raw'
@@ -58,9 +60,6 @@ Asena.addCommand({pattern: 'install ?(.*)', fromMe: true, desc: Lang.INSTALL_DES
 
         await Db.installPlugin(url, plugin_name);
         await message.client.sendMessage(message.jid, Lang.INSTALLED, MessageType.text);
-        }
-    } else {
-        return await amdiMSG.client.sendMessage(amdiMSG.jid, '❌ Unofficial plugin detected!',MessageType.text, {quoted: amdiMSG.data});
     }
 }));
 
