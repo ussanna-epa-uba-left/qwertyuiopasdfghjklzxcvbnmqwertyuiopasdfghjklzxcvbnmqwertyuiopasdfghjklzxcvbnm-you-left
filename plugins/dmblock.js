@@ -1,4 +1,4 @@
-const QueenAmdi = require('queenamdi-public');
+/*const QueenAmdi = require('queenamdi-public');
 const Asena = require('../events');
 const Config = require('../config');
 const { MessageType } = require('@blackamda/queenamdi-web-api');
@@ -25,4 +25,4 @@ Asena.addCommand({pattern: 'text', fromMe: false,  deleteCommand: false}, (async
             }
         }
     }
-}));
+}));*/
