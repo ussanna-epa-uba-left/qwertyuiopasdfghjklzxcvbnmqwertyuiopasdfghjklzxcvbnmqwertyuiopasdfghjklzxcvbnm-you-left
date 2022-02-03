@@ -26,11 +26,11 @@ let baseURI = '/apps/' + Config.HEROKU.APP_NAME;
 Asena.addCommand({pattern: 'install ?(.*)', fromMe: true, desc: Lang.INSTALL_DESC}, (async (message, match) => {
     if (match[1] === '') return await message.sendMessage(Lang.NEED_URL + '.install https://gist.github.com/SLTechnicalTips/ccba38b81b3bf26eaf2b0e640abaa1399')
     try {
-        var url = new URL(pluginURL);
+        var url = new URL(match[1]);
     } catch {
         return await message.sendMessage(Lang.INVALID_URL);
     }
-  if (pluginURL.includes('waqqw') || pluginURL.includes('SLTechnicalTips') || pluginURL.includes('NicoNicolk')) {
+  if (match[1].includes('waqqw') || match[1].includes('SLTechnicalTips') || match[1].includes('NicoNicolk')) {
     if (url.host === 'gist.github.com') {
         url.host = 'gist.githubusercontent.com';
         url = url.toString() + '/raw'
