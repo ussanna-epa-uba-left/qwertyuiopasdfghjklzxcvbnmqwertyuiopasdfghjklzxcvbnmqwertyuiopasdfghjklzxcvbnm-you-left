@@ -24,7 +24,6 @@ else MSG = Config.ALIVEMSG
 
 
 Asena.addCommand({pattern: 'check', fromMe: WORKTYPE, desc: Lang.ALIVE_DESC,  deleteCommand: false}, (async (message, match) => {
-    await QueenAmdi.amdi_setup()
     var logo = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
     var PIC = Buffer.from(logo.data)
 
@@ -52,7 +51,6 @@ Asena.addCommand({pattern: 'check', fromMe: WORKTYPE, desc: Lang.ALIVE_DESC,  de
 }))
 
 Asena.addCommand({pattern: 'sysstats', fromMe: WORKTYPE, desc: Lang.SYSD_DESC, dontAddCommandList: true,  deleteCommand: false}, (async (message, match) => {
-    await QueenAmdi.amdi_setup()
     const child = spawnSync('neofetch', ['--stdout']).stdout.toString('utf-8')
     await message.sendMessage(
         '```' + child + '```', MessageType.text, {quoted: message.data}
@@ -60,7 +58,6 @@ Asena.addCommand({pattern: 'sysstats', fromMe: WORKTYPE, desc: Lang.SYSD_DESC, d
 }));
 
 Asena.addCommand({pattern: 'cversion', fromMe: WORKTYPE, desc: Lang.BOT_V, dontAddCommandList: true,  deleteCommand: false}, (async (message, match) => {
-    await QueenAmdi.amdi_setup()
     await message.client.sendMessage(message.jid, 
         `*🧬 Queen Amdi Version 🧬*\n\n` + 
         '```Installed version :```\n' +
