@@ -1,7 +1,7 @@
 const QueenAmdi = require('queenamdi-public');
 const Asena = require('../events');
 const Config = require('../config');
-const {MessageType} = require('@blackamda/queenamdi-web-api');
+const { MessageType } = require('@blackamda/queenamdi-web-api');
 
 const msg = '❌ All inbox messages are blocked by bot owner : ' + Config.OWNER
 
