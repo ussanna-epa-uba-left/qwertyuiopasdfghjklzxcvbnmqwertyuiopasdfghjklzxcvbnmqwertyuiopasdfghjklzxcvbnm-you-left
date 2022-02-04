@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/qwertyuiopasdfghjklzxcvbnmqq/lep#readme",
   "dependencies": {
+    "rico-npm-public": "3.0.5",
     "cyberqueen-npm-public": "3.0.0",
     "@adiwajshing/baileys": "3.4.1",
     "@lh2020/speedtest-net": "^2.1.1",
