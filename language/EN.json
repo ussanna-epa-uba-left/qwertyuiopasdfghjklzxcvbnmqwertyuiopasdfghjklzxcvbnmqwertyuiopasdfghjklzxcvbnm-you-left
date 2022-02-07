@@ -1,8 +1,8 @@
 {
     "__ASENAJSON__": true,
-    "LANGUAGE": "English",
+    "LANGUAGE": "Sinhala",
     "LANGCODE": "en",
-    "AUTHOR": "AsenaDev",
+    "AUTHOR": "CyberQueenDev",
     "STRINGS": {
         "_asena": {
             "COMMAND": "විධානය",
@@ -73,7 +73,7 @@
         },
         "heroku": {
             "RESTART_DESC": "᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ නැවත ආරම්භ කරන්න",
-            "RESTART_MSG": "```᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ Restarting...```",
+            "RESTART_MSG": "```♻️᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴜᴇᴇɴᬐ Restarting...```",
             "SHUTDOWN_DESC": "Shutdown",
             "SHUTDOWN_MSG": "```වසා දමයි ⛔```",
             "DYNO_DESC": "Check heroku dyno usage",
