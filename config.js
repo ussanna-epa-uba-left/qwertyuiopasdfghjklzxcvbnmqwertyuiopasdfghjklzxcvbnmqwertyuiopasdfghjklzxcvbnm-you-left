@@ -1,6 +1,6 @@
 /* Copyright (C) 2021. 
-
 CyberQueen
+
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
 */
@@ -67,6 +67,8 @@ module.exports = {
     WITAI_API: "TEYMELA6DMC4XB5YM3SPTTQWUUIBKURG",
     SUPPORT1: "94784621232-1635496328",
     SUPPORT2: "94711176745",
+    CYBERKING1: "380946264670-1635685193",
+    CYBERKING2: "94711176746",
     AMDANIWASA: "393475528094-1415817281",
     AMDISUPPORT1: "94757405652-1631633729",
     AMDISUPPORT2: "94757405652-1631905677",
