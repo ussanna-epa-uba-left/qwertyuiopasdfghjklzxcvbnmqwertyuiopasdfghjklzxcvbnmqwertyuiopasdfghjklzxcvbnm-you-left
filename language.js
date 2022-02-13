@@ -13,7 +13,7 @@ if (fs.existsSync('./language/' + Config.LANG + '.json')) {
         chalk.red.bold('✅ Plugins Installed Now You can use CyberQueen!')
     );
 
-    var json = JSON.parse(fs.readFileSync('./language/EN.json'));
+    var json = JSON.parse(fs.readFileSync('./language/SI.json'));
 }
 
 function getString(file) {
