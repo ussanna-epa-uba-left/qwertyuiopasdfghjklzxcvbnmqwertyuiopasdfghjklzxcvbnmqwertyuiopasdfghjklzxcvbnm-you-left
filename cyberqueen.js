@@ -241,7 +241,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                 }
             }
         }
-        else {e
+        else {
             return console.log('Wrong WORK_TYPE key! Please use “private” or “public”')
         }
     });
