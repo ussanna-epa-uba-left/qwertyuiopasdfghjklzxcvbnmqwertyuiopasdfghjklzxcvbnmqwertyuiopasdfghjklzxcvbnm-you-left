@@ -2,8 +2,6 @@ const cobra = require('../events');
 const {MessageType,Mimetype} = require('@adiwajshing/baileys');
 const translatte = require('translatte');
 const config = require('../config');
-const LanguageDetect = require('languagedetect');
-const lngDetector = new LanguageDetect();
 const Heroku = require('heroku-client');
 const heroku = new Heroku({
     token: config.HEROKU.API_KEY
@@ -15,7 +13,6 @@ const ffmpeg = require('fluent-ffmpeg');
 const yts = require( 'yt-search' )
 const got = require("got");
 const ID3Writer = require('browser-id3-writer');
-const SpotifyWebApi = require('spotify-web-api-node');
 
 const spotifyApi = new SpotifyWebApi({
     clientId: 'acc6302297e040aeb6e4ac1fbdfd62c3',
@@ -55,7 +52,7 @@ cobra.addCommand({pattern: 'play ?(.*)', fromMe: true, desc: Lang.SONG_DESC}, (a
                         description: arama[0].description
                     });
                 writer.addTag();
-                const msg = '⇢ ' + ':' + title + '\n\n' + '⇢ :Type : MP3' + '\n\n' +'```Please Wait...```'
+                const msg = '⇢ ' + ':' + title + '\n\n' + '⇢ :Type : Document' + '\n\n' +'```Please Wait...```'
                 var iavatar = await axios.get(thumbnail,{responseType: 'arraybuffer'});
                 reply = await message.client.sendMessage(message.jid,config.SONG_UP, MessageType.text);
                 await message.client.sendMessage(message.jid,Buffer.from(writer.arrayBuffer), MessageType.document, {filename: title + '.mp3', mimetype: 'audio/mpeg', ptt: false});
