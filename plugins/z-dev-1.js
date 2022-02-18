@@ -1,4 +1,4 @@
-const Cyber = require('../events');
+/*const Cyber = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
 const COE = ('VCARD')
 let Work_Mode = Config.WORKTYPE == 'public' ? false : true
@@ -14,3 +14,4 @@ const vcard = 'BEGIN:VCARD\n'
             + 'END:VCARD'
 await message.client.sendMessage(message.jid, {displayname: "♦️⇝͜͡✪ஓீ͜ɴͥɪᴄᷧᴏᷟ࿐♠⁩ ", vcard: vcard}, MessageType.contact)
  })
+*/
