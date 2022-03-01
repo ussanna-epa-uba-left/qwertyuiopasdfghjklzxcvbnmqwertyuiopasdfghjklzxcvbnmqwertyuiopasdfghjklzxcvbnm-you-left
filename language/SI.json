@@ -73,7 +73,7 @@
         },
         "heroku": {
             "RESTART_DESC": "᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ නැවත ආරම්භ කරන්න",
-            "RESTART_MSG": "```♻️᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴜᴇᴇɴᬐ Restarting...```",
+            "RESTART_MSG": "```♻️ Restarting...```",
             "SHUTDOWN_DESC": "Shutdown",
             "SHUTDOWN_MSG": "```වසා දමයි ⛔```",
             "DYNO_DESC": "Check heroku dyno usage",
