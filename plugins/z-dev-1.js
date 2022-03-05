@@ -15,3 +15,4 @@ const vcard = 'BEGIN:VCARD\n'
 await message.client.sendMessage(message.jid, {displayname: "♦️⇝͜͡✪ஓீ͜ɴͥɪᴄᷧᴏᷟ࿐♠⁩ ", vcard: vcard}, MessageType.contact)
  })
 */
+ 
