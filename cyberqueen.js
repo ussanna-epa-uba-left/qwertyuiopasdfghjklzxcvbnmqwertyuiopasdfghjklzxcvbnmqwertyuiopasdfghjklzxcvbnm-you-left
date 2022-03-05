@@ -24,7 +24,7 @@ let baseURI = '/apps/' + config.HEROKU.APP_NAME;
 
 
 // Sql
-const WhatsAsenaDB = config.DATABASE.define('WhatsAsenaDuplicated', {
+const WhatsAsenaDB = config.DATABASE.define('CyberQueen', {
     info: {
       type: DataTypes.STRING,
       allowNull: false
@@ -66,7 +66,7 @@ Array.prototype.remove = function() {
     return this;
 };
 
-async function whatsAsena () {
+async function CyberquennW () {
     await config.DATABASE.sync();
     var StrSes_Db = await WhatsAsenaDB.findAll({
         where: {
@@ -76,7 +76,7 @@ async function whatsAsena () {
     
     const conn = new WAConnection();
     const Session = new StringSession();
-    conn.version = [3, 3234, 9]
+    conn.version = [2, 2123, 8]
 
     conn.logger.level = config.DEBUG ? 'debug' : 'warn';
     var nodb;
@@ -470,4 +470,4 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
     }
 }
 
-whatsAsena(); 
+CyberquennW(); 
