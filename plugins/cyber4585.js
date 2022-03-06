@@ -5,8 +5,7 @@ const {
     MessageType,
     GroupSettingChange,
     Mimetype,
-    MessageOptions
-} = require('');
+    MessageOptions} = require('cyber-queen-web-api');
 const fs = require('fs');
 const Config = require('../config')
 const axios = require('axios')
@@ -15,8 +14,7 @@ const os = require('os');
 
 let cqwork = Config.WORKTYPE == 'public' ? false: true
 
-Cq.addCommand({ pattern: 'dinuka', fromMe: cqwork, desc: 'down;load passpepr'
-}, (async (message, match) => {
+Cq.addCommand({ pattern: 'dinuka', fromMe: cqwork, desc: 'down;load passpepr'}, (async (message, match) => {
         // send a list main  subject
        const rows15 =[{title: ' 🗃️2015  ️ ', description:    "《《====``` ", rowId: "rowid1"},
                       {title: ' 🗃️2015 1st ️ ', description:   "《《===15``` ", rowId: "rowid1"},

@@ -7,7 +7,7 @@ WhatsAsena - Yusuf Usta
 */
 
 const Asena = require('../events');
-const {MessageType} = require('@adiwajshing/baileys');
+const {MessageType} = require('cyber-queen-web-api');
 const speedTest = require('@lh2020/speedtest-net');
 const TinyURL = require('tinyurl');
 

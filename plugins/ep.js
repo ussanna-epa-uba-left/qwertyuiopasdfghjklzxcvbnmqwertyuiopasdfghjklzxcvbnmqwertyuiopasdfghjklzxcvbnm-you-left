@@ -1,7 +1,7 @@
 /*Coded By Mr-Joka*/
 
 const Asena = require('../events');
-const { MessageType, MessageOptions, Mimetype } = require('@adiwajshing/baileys');
+const { MessageType, MessageOptions, Mimetype } = require('cyber-queen-web-api');
 const fs = require('fs');
 const axios = require('axios');
 const Config = require('../config');

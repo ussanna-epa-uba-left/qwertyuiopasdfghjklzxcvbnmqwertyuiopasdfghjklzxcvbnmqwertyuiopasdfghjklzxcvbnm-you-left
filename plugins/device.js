@@ -8,7 +8,7 @@ JulieMwol - Farhan-dqz
 
 const Cyber = require('../events');
 
-const {MessageType} = require('@adiwajshing/baileys');
+const {MessageType} = require('cyber-queen-web-api');
 
 const axios = require ('axios')
 

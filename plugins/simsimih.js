@@ -4,7 +4,7 @@ you may not use this file except in compliance with the License.
 
 
 const Asena = require('../events');
-const {MessageType} = require('@adiwajshing/baileys');
+const {MessageType} = require('cyber-queen-web-api');
 const got = require('got');
 
 const BOT_DESC = "Chat with an AI Bot. \n Use .bot <message>"

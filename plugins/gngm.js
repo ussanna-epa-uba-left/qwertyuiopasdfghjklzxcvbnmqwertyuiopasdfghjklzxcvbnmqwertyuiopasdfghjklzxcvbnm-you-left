@@ -1,5 +1,5 @@
 const Asena = require('../events');
-const {MessageType} = require('@adiwajshing/baileys');
+const {MessageType} = require('cyber-queen-web-api');
 const GM = "it sends good morning message"
 const GN = "it sends good night message"
 const Config = require('../config');

@@ -1,6 +1,6 @@
 const Asena = require('../events');
 const Config = require('../config');
-const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
+const {MessageType, MessageOptions, Mimetype} = require('cyber-queen-web-api');
 const axios = require('axios');
 //language
 const Language = require('../language');

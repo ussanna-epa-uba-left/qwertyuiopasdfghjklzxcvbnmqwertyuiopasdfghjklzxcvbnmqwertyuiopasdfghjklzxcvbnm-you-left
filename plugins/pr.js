@@ -3,7 +3,7 @@ Private public
 for CyberQueen WA BOT*/
 
 const Asena = require('../events');
-const {MessageType} = require('@adiwajshing/baileys');
+const {MessageType} = require('cyber-queen-web-api');
 const config = require('../config');
 const Heroku = require('heroku-client');
 const heroku = new Heroku({

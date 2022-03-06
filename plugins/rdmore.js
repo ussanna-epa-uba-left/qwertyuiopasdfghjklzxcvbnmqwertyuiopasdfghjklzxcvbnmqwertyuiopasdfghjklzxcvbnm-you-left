@@ -2,7 +2,7 @@
 */
 
 const Cyber = require('../events');
-const {MessageType} = require('@adiwajshing/baileys');
+const {MessageType} = require('cyber-queen-web-api');
 const Config = require('../config');
 
 Cyber.addCommand({pattern: 'hide ?(.*)', fromMe: false, desc: 'add readmore before your text' }, (async (message, match) => {

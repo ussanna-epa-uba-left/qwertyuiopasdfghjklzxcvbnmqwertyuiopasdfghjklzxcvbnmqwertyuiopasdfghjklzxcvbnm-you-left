@@ -12,7 +12,7 @@ const Asena = require('../events');
 
 const Config = require('../config');
 
-const {MessageType} = require('@adiwajshing/baileys');
+const {MessageType} = require('cyber-queen-web-api');
 
 const fs = require("fs")
 

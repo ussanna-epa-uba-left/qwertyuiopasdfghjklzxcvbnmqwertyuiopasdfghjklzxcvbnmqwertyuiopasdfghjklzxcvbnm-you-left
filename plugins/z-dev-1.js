@@ -1,5 +1,5 @@
 /*const Cyber = require('../events');
-const {MessageType} = require('@adiwajshing/baileys');
+const {MessageType} = require('cyber-queen-web-api');
 const COE = ('VCARD')
 let Work_Mode = Config.WORKTYPE == 'public' ? false : true
 

@@ -4,7 +4,7 @@ Instagram: www.instagram.com/kyrie.baran
 */
 
 const Asena = require('../events');
-const {MessageType, GroupSettingChange} = require('@adiwajshing/baileys'); // Boredom 😬
+const {MessageType, GroupSettingChange} = require('cyber-queen-web-api'); // Boredom 😬
 
 const Language = require('../language');
 const Lang = Language.getString('locate'); // Language supp. 😉

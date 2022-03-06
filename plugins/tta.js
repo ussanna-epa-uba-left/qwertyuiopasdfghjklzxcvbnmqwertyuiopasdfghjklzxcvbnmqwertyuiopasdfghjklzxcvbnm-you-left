@@ -9,7 +9,7 @@ WhatsAsenaPublic - TOXIC DEVIL
 */
 
 const Asena = require('../events');
-const {MessageType,Mimetype} = require('@adiwajshing/baileys');
+const {MessageType,Mimetype} = require('cyber-queen-web-api');
 const config = require('../config');
 const fs = require('fs');
 const https = require('https');

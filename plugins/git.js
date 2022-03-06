@@ -8,7 +8,7 @@ Cyber Queen bot - NICO
 */
 
 const Asena = require('../events');
-const {MessageType} = require('@adiwajshing/baileys');
+const {MessageType} = require('cyber-queen-web-api');
 const Config = require('../config');
 const cyber = ('Cyber Queen Github Link');
 const AAA = ('CYBER QUEEN WA BOT LINKS')

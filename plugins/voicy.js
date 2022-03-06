@@ -1,7 +1,7 @@
 /* const Asena = require('../events');
 const ffmpeg = require('fluent-ffmpeg');
 const fs = require('fs');
-const { MessageType } = require('@adiwajshing/baileys');
+const { MessageType } = require('cyber-queen-web-api');
 const Language = require('../language');
 const Lang = Language.getString('voicy');
 const conf = require('../config');

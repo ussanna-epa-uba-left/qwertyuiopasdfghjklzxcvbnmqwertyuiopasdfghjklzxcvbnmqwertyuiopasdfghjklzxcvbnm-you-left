@@ -7,7 +7,7 @@ CyberQueen bot - NICO
 
 
 const Asena = require('../events');
-const {MessageType} = require('@adiwajshing/baileys');
+const {MessageType} = require('cyber-queen-web-api');
 const Config = require('../config');
 const cyber = ('Cyber Queen Version 🛠️');
 const AAA = ('Check Cyber Queen Version 🛠️')
@@ -24,7 +24,7 @@ Asena.addCommand({pattern: 'version', fromMe: true, delowndinukacmd: false, desc
 */
 
 const Asena = require('../events');
-const {MessageType} = require('@adiwajshing/baileys');
+const {MessageType} = require('cyber-queen-web-api');
 const M = "It sends version"
 const N = "It sends version"
 const Config = require('../config');

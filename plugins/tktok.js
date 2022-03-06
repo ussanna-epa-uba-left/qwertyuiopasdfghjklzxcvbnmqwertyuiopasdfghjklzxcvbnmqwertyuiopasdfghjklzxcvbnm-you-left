@@ -1,7 +1,7 @@
 /* Codded by sisula welgamage
 const Cyber = require('../events');
 const Config = require('../config');
-const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
+const {MessageType, MessageOptions, Mimetype} = require('cyber-queen-web-api');
 const fs = require('fs');
 const axios = require('axios');
 const tktok = require('tiktok-scraper');
