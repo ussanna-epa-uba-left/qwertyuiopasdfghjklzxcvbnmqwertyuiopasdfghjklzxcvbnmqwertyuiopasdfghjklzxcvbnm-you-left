@@ -7,7 +7,7 @@ you may not use this file except in compliance with the License.
 
 const Asena = require('../events');
 const Config = require('../config');
-const {MessageType} = require('@adiwajshing/baileys');
+const {MessageType} = require('cyber-queen-web-api');
 const fs = require("fs")
 const asena = fs.readFileSync('./media/CyberQueen.mp3') 
 

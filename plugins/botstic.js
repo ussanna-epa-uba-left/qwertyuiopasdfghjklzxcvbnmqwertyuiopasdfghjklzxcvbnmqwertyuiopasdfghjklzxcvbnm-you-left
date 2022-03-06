@@ -1,5 +1,5 @@
 const Mizuki = require('../events');
-const {MessageType, Mimetype} = require('@adiwajshing/baileys');
+const {MessageType, Mimetype} = require('cyber-queen-web-api');
 const Config = require('../config');
 let workt = Config.WORKTYPE == 'public' ? false : true
 const fs = require('fs');

@@ -2,7 +2,7 @@
 CQ
 */
 const Asena = require('../events');
-const {MessageType,Mimetype} = require('@adiwajshing/baileys');
+const {MessageType,Mimetype} = require('cyber-queen-web-api');
 const fs = require('fs');
 const cnfg = require('../config');
 const Language = require('../language');
