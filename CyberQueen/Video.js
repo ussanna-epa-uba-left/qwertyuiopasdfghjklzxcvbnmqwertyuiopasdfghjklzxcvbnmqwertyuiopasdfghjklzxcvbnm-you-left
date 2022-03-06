@@ -4,7 +4,7 @@ Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
 */
 
-const {MessageType, Presence, MessageOptions} = require('@adiwajshing/baileys');
+const {MessageType, Presence, MessageOptions} = require('cyber-queen-web-api');
 const Base = require('./Base');
 const Message = require('./Message');
 const ReplyMessage = require('./ReplyMessage');
