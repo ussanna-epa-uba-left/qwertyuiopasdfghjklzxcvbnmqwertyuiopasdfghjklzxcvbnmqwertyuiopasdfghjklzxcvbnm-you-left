@@ -27,4 +27,3 @@ jobs:
         days-before-stale: 5
 
         days-before-close: 2
- 

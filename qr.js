@@ -3,17 +3,17 @@
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
 
-WhatsAsena - Yusuf Usta
+CyberQueenWa - Yusuf Usta
 */
 
 const chalk = require('chalk');
-const { WAConnection, MessageType } = require('@adiwajshing/baileys');
+const { WAConnection, MessageType } = require('cyber-queen-web-api');
 const fs = require('fs');
 
-async function whatsAsena() {
+async function CyberQueenWa() {
 	const conn = new WAConnection();
 	conn.logger.level = 'warn';
-	conn.version = [3, 3234, 9]
+	conn.version = [3, 2455, 11]
 
 	conn.on('connecting', async () => {
 		console.log(`${chalk.green.bold('Cyber')}${chalk.blue.bold('Queen')}
@@ -66,4 +66,4 @@ ${chalk.blue.italic('ℹ️  Connecting to Whatsapp... Please wait.')}`);
 	await conn.connect();
 }
 
-whatsAsena();
+CyberQueenWa();

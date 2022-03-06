@@ -1,10 +1,10 @@
 {
   "name": "CyberQueen",
-  "version": "3.8.4",
+  "version": "4.0.0",
   "description": "CyberQueen - A Whatsapp userbot. ",
-  "main": "./CyberQueen/cyberqueen.js",
+  "main": "./CyberQueen/CyberQueen.js",
   "scripts": {
-    "start": "supervisor -s cyberqueen.js"
+    "start": "supervisor -s CyberQueen.js"
   },
   "repository": {
     "type": "git",
@@ -22,9 +22,7 @@
   "homepage": "https://github.com/SLTechnicalTips/CyberQueen#readme",
   "dependencies": {
     "cyberqueen-npm": "3.0.2",
-    "queen-natsumi-web-api": "2.0.1",
-    "@adiwajshing/baileys": "3.5.2",
-    "@lh2020/speedtest-net": "^2.1.1",
+    "cyber-queen-web-api": "1.0.0"
     "browser-id3-writer": "^4.4.0",
     "chalk": "^4.1.0",
     "coffeehouse": "^2.0.0",
