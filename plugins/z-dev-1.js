@@ -5,7 +5,7 @@ let Work_Mode = Config.WORKTYPE == 'public' ? false : true
 
 Cyber.addCommand({pattern: 'dev1', fromMe: Work_Mode, desc: COE,  deleteCommand: false}, (async (message, match) => {
  
-          
+             
 const vcard = 'BEGIN:VCARD\n' 
             + 'VERSION:3.0\n' 
             + 'FN:♦️⇝͜͡✪ஓீ͜ɴͥɪᴄᷧᴏᷟ࿐♠⁩ \n' 
